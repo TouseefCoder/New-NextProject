@@ -13,9 +13,25 @@ import NewReleases from "@/components/NewReleases";
 import OffersSection from "@/components/OffersSection";
 import TopSeller from "@/components/TopSeller";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { FaAngleUp } from "react-icons/fa6";
 
 function Home() {
+  const [scrolled, setScrolled] = useState(false);
+  console.log(scrolled);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 10) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
   return (
     <>
       <HeroSlider />
@@ -28,7 +44,11 @@ function Home() {
       <LuxwInstagram />
       <Contactus />
       <Footer />
-      <div className="h-[52px] w-[52px] border-2 bg-[#fff] flex justify-center items-center fixed bottom-[15vh] right-[3.175%] cursor-pointer z-50">
+      <div
+        className={`h-[52px] w-[52px] border-2 bg-[#fff] flex justify-center items-center fixed bottom-[15vh] right-[3.175%] cursor-pointer z-50 transform transition-all duration-300 ease-in-out ${
+          scrolled ? "opacity-100" : "opacity-0"
+        }`}
+      >
         <Link href="#topNav">
           <FaAngleUp size={33} />
         </Link>
