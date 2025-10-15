@@ -1,0 +1,48 @@
+.slideGap {
+  overflow: hidden !important;
+}
+.slideGap :global(.slick-list) {
+  overflow: hidden !important;
+  margin: 0 -10px;
+}
+
+.slideGap :global(.slick-slide) {
+  height: auto;
+}
+
+.slideGap :global(.slick-slide > div) {
+  margin: 0 10px;
+  box-sizing: border-box;
+  width: auto;
+}
+
+.slideGap :global(.slick-list) {
+  margin: 0 -10px;
+}
+
+@media (max-width: 1024px) {
+  .slideGap :global(.slick-list) {
+    margin: 0 -8px;
+  }
+  .slideGap :global(.slick-slide > div) {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slideGap :global(.slick-list) {
+    margin: 0 -6px;
+  }
+  .slideGap :global(.slick-slide > div) {
+    margin: 0 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slideGap :global(.slick-list) {
+    margin: 0 -4px;
+  }
+  .slideGap :global(.slick-slide > div) {
+    margin: 0 4px;
+  }
+}
