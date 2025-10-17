@@ -6,12 +6,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import Image from "next/image";
 
 function NextArrow(props) {
   const { onClick, currentSlide, slideCount, slidesToShow = 5 } = props;
-
-  // Disable button when reaching the last slide
   const isDisabled = currentSlide >= slideCount - slidesToShow;
 
   return (
@@ -63,7 +60,7 @@ const TopSeller = () => {
         style={{
           position: "absolute",
           left: "50%",
-          bottom: "-20px",
+          bottom: "-30px",
           transform: "translateX(-50%)",
         }}
       >
@@ -113,56 +110,28 @@ const TopSeller = () => {
     ],
   };
   return (
-    <div className="max-w-[1200px] w-full mx-auto px-[15px] mt-[50px]">
-      <div className="w-full relative">
+    <div className="w-full bg-[#f4f4f4] box-border ">
+      <div className="max-w-[1200px] mx-auto px-[15px]  w-full relative">
         <Slider {...settings} className={`${styles.sliderContainer}`}>
-          <div className="flex justify-center">
-            <Image
-              src="/images/logo slider/1.jpg"
-              alt="image 1"
-              height={70}
-              width={204}
-            />
+          <div className="pt-[18px] pb-[26px] text-center">
+            <span className="text-center text-[12px] uppercase font-medium text-[#0f0f0f] leading-[.1rem]">
+              free shopping worldwide
+            </span>
           </div>
-          <div className="flex justify-center">
-            <Image
-              src="/images/logo slider/2.jpg"
-              alt="image 1"
-              height={70}
-              width={204}
-            />
+          <div className="pt-[18px] pb-[26px] text-center">
+            <span className="text-center text-[12px] uppercase font-medium text-[#0f0f0f] leading-[.1rem]">
+              free in-store returns
+            </span>
           </div>
-          <div className="flex justify-center">
-            <Image
-              src="/images/logo slider/3.jpg"
-              alt="image 1"
-              height={70}
-              width={204}
-            />
+          <div className="pt-[18px] pb-[26px] text-center">
+            <span className="text-center text-[12px] uppercase font-medium text-[#0f0f0f] leading-[.1rem]">
+              genuine product guarantee
+            </span>
           </div>
-          <div className="flex justify-center">
-            <Image
-              src="/images/logo slider/4.jpg"
-              alt="image 1"
-              height={70}
-              width={204}
-            />
-          </div>
-          <div className="flex justify-center">
-            <Image
-              src="/images/logo slider/5.jpg"
-              alt="image 1"
-              height={70}
-              width={204}
-            />
-          </div>
-          <div className="flex justify-center">
-            <Image
-              src="/images/logo slider/1.jpg"
-              alt="image 1"
-              height={70}
-              width={204}
-            />
+          <div className="pt-[18px] pb-[26px] text-center">
+            <span className="text-center text-[12px] uppercase font-medium text-[#0f0f0f] leading-[.1rem]">
+              100% secure shopping
+            </span>
           </div>
         </Slider>
       </div>

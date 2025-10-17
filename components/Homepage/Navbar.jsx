@@ -34,7 +34,11 @@ const Navbar = () => {
     <>
       <div
         id="topNav"
-        className={`flex flex-col sticky top-0 z-50 border-box w-full items-center justify-center text-[#ffffff] bg-[#0f0f0f]
+        className={`flex flex-col fixed top-0 z-50 border-box w-full items-center justify-center text-[#ffffff] bg-[#0f0f0f] xl:bg-${
+          scrolled
+            ? "bg-[#0f0f0f] xl:bg-[#0f0f0f]"
+            : "bg-[#0f0f0f] xl:bg-transparent"
+        }
         `}
       >
         <div
@@ -244,11 +248,11 @@ const Navbar = () => {
           </div>
         </div>
         {!scrolled && (
-          <div className="hidden xl:flex h-[55px] bg-[#ffffff] w-full items-center justify-center text-[rgba(0,0,0,0.5)]">
+          <div className="hidden xl:flex h-[55px] bg-[rgba(0,0,0,0.5)] w-full items-center justify-center text-[#ffffff]">
             <ul className="hidden lg:flex justify-center items-center flex-wrap w-full gap-x-10 gap-y-[10px] text-[15px] font-medium">
               <li className="">
                 <Link
-                  className={`font-medium uppercase text-[12px] text-[#000] tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
                   href="/"
                 >
                   New Releases
@@ -257,7 +261,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-[#000] tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
                   href="/"
                 >
                   mens
@@ -266,7 +270,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-[#000] tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
                   href="/"
                 >
                   womens
@@ -275,7 +279,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-[#000] tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
                   href="/"
                 >
                   Jewelery
@@ -284,7 +288,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-[#000] tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
                   href="/"
                 >
                   accessories
@@ -293,7 +297,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-[#000] tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
                   href="/"
                 >
                   blog
@@ -302,7 +306,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-[#000] tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
                   href="/"
                 >
                   demo
@@ -311,7 +315,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-[#000] tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
                   href="/"
                 >
                   my theme
