@@ -138,7 +138,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
-                      href="/"
+                      href="/men"
                     >
                       mens
                     </Link>
@@ -262,7 +262,7 @@ const Navbar = () => {
               <li>
                 <Link
                   className={`font-medium uppercase text-[12px] text-white tracking-widest`}
-                  href="/"
+                  href="/men"
                 >
                   mens
                 </Link>
