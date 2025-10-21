@@ -65,7 +65,7 @@ const Navbar = () => {
                     href="/"
                   >
                     <MdOutlinePhone size={12} />
-                    <span>+123 456 789</span>
+                    <span className="whitespace-nowrap">+123 456 789</span>
                   </Link>
                 </li>
                 <li>
@@ -102,26 +102,26 @@ const Navbar = () => {
           <div className="w-[calc(100%-680px)] center-class h-full flex items-center justify-center">
             {!scrolled ? (
               <Link href="/" className={`${!scrolled ? "flex" : "xl:hidden"}`}>
-                <div className="w-[157px] h-[25px]">
+                <div className="w-[157px] h-[25px] flex justify-center items-center">
                   <Image
                     src="/images/logo/logo.png"
                     alt="Logo"
                     width={157}
                     height={25}
-                    className="invert"
+                    className="invert sm:w-[157px] w-[100px]"
                   />
                 </div>
               </Link>
             ) : (
               <>
                 <Link href="/" className="flex xl:hidden">
-                  <div className="w-[157px] h-[25px]">
+                  <div className="w-[157px] h-[25px] flex justify-center items-center">
                     <Image
                       src="/images/logo/logo.png"
                       alt="Logo"
                       width={157}
                       height={25}
-                      className="invert"
+                      className="invert sm:w-[157px] w-[100px]"
                     />
                   </div>
                 </Link>

@@ -5,7 +5,6 @@ import { FaAngleUp } from "react-icons/fa6";
 
 const MoveTop = () => {
   const [scrolled, setScrolled] = useState(false);
-  console.log(scrolled);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {

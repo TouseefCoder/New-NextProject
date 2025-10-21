@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
+import Divider from "./Divider";
 
 const Footer = () => {
   return (
@@ -158,8 +159,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="seprator h-[1px] w-full bg-[#b7b7b8]"></div>
-      <div className="pt-[35px] pb-[55px]">
+      <Divider />
+      <div className="pt-[35px] pb-[55px] w-full">
         <div className="px-[15px] max-w-[1600px] w-full mx-auto">
           <div className="grid grid-cols-12 gap-[30px] sm:gap-[15px]">
             <div className="col-span-12 sm:col-span-6 md:col-span-4 flex justify-center sm:justify-flex-start gap-x-[10px] sm:gap-x-0">

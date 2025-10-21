@@ -11,17 +11,23 @@ import { TiSocialGooglePlus } from "react-icons/ti";
 
 const Contactus = () => {
   return (
-    <div className="w-full relative box-border">
-      <img
-        src="/images/contactpage/1.jpg"
-        alt="contact us"
-        className="h-full min-h-[300px] w-full object-cover"
-      />
-      <div className="content absolute left-0 top-0 w-full h-full flex items-center justify-center flex-col">
+    <div
+      className="w-full relative box-border py-[20px] md:py-[40px] lg:py-[80px] xl:py-[120px] 2xl:py-[160px]"
+      style={{
+        backgroundImage: "url('/images/contactpage/1.jpg')",
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        textAlign: "center",
+        width: "100%",
+        height: "100%",
+      }}
+    >
+      <div className="content w-full h-full flex items-center justify-center flex-col">
         <h4 className="text-[20px] sm:text-[24px] text-[#ffffff] font-medium mb-[12px] md:mb-[22px] uppercase">
           be the first
         </h4>
-        <h3 className="text-[12px] font-[400] mb-[16px] lg:mb-[20px] xl:mb-[35px] text-[#ffffff] uppercase">
+        <h3 className="text-[12px] font-[400] mb-[16px] tracking-[0.6px] lg:mb-[20px] xl:mb-[35px] text-[#ffffff] uppercase">
           Get the latest news, invites and offers straight to your mail.
         </h3>
         <form

@@ -79,7 +79,7 @@ export default function MyCarousel() {
     ),
     customPaging: (i) => (
       <div
-        className={`w-3 h-3 rounded-full transition-all duration-300 ${
+        className={`w-[8px] h-[8px] sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
           i === activeIndex
             ? "border border-gray-400"
             : "bg-gray-400 hover:bg-gray-600"

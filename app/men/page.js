@@ -29,7 +29,7 @@ const page = () => {
           <h3 className="text-[24px] text-[#0f0f0f] tracking-[.05rem] mb-[20px] font-medium text-center uppercase">
             mens
           </h3>
-          <p className="text-center text-[#5a5a5a] text-[14px]">
+          <p className="text-center text-[#5a5a5a] text-[12px]">
             Nam tempus turpis at metus scelerisque placerat nulla deumantos
             sollicitudin delos felis. Pellentesque diam dolor an elementum et
             lobortis at mollis ut risus. Curabitur semper sagittis mino de
@@ -850,7 +850,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <p className="text-center text-[#5a5a5a] text-[14px] mt-[25px] mb-[70px]">
+          <p className="text-center text-[#5a5a5a] text-[12px] mt-[25px] mb-[70px]">
             Sample Paragraph Text Block: Nam tempus turpis at metus scelerisque
             placerat nulla deumantos sollicitudin delos felis. Pellentesque diam
             dolor an elementum et lobortis at mollis delos risus. Curabitur
@@ -861,11 +861,11 @@ const page = () => {
             sagittis lectus lacinia vestibulum.
           </p>
           <div className="flex justify-center items-center gap-x-[10px] py-[16px]">
-            <Link href="#" className="text-center text-[#5a5a5a] text-[14px]">
+            <Link href="#" className="text-center text-[#5a5a5a] text-[12px]">
               Home
             </Link>
-            <FaAngleRight className="text-[#5a5a5a] text-[14px]" />
-            <Link href="#" className="text-center text-[#5a5a5a] text-[14px]">
+            <FaAngleRight className="text-[#5a5a5a] text-[12px]" />
+            <Link href="#" className="text-center text-[#5a5a5a] text-[12px]">
               Accessories
             </Link>
           </div>
