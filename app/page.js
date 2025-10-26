@@ -9,7 +9,7 @@ import HeroSlider from "@/components/Homepage/HeroSlider";
 import LogosSlider from "@/components/Homepage/LogosSlider";
 import LuxwInstagram from "@/components/Homepage/LuxwInstagram";
 import MenWomenProducts from "@/components/Homepage/MenWomenProducts";
-import NewReleases from "@/components/Homepage/NewReleases";
+import NewReleases from "@/components/product-details/RelatedProducts";
 import OffersSection from "@/components/Homepage/OffersSection";
 import TopSeller from "@/components/Homepage/TopSeller";
 import Navbar from "@/components/Homepage/Navbar";

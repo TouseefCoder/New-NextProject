@@ -69,17 +69,21 @@ export default function MyCarousel() {
     appendDots: (dots) => (
       <div
         style={{
+          position: "absolute",
           bottom: "10px",
           left: "50%",
           transform: "translateX(-50%)",
         }}
+        // className="absolute left-1/2 transform translate-X-1/2 translate-y-1/2 bottom-0"
       >
-        <ul className=" flex justify-center space-x-2 m-0 p-0">{dots}</ul>
+        <ul className=" flex justify-center space-x-2 m-0 p-0" style={{}}>
+          {dots}
+        </ul>
       </div>
     ),
     customPaging: (i) => (
       <div
-        className={`w-[8px] h-[8px] sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
+        className={`w-[8px] h-[8px] sm:w-3 sm:h-3 text-center content-center rounded-full transition-all duration-300 ${
           i === activeIndex
             ? "border border-gray-400"
             : "bg-gray-400 hover:bg-gray-600"
@@ -102,7 +106,7 @@ export default function MyCarousel() {
             <h3 className="text-[24px] block sm:hidden absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:text-[40px] font-medium text-center mb-[10px] uppercase text-[#ffffff]">
               cosmopolis
             </h3>
-            <div className="max-w-[455px] w-full mx-auto h-[174px] relative sm:absolute sm:top-1/2 p-5 lg:left-[21%] md:left-[4%] sm:-translate-y-1/2">
+            <div className="max-w-[455px] w-full mx-auto mb-[25px] sm:mb-0 h-[174px] relative sm:absolute sm:top-1/2 p-5 lg:left-[21%] md:left-[4%] sm:-translate-y-1/2">
               <h3 className="text-[24px] hidden sm:block lg:text-[40px] font-medium text-center mb-[10px] uppercase text-[#ffffff]">
                 cosmopolis
               </h3>
@@ -111,7 +115,7 @@ export default function MyCarousel() {
                 condimentum de cosmo lacus meleifend blanditios.
               </p>
               <div className="w-full flex justify-center">
-                <button className="w-[240px] text-center h-[40px] text-[14px] cursor-pointer hover:bg-[#000000] bg-[#000000] sm:bg-transparent text-white font-[500] border border-white uppercase">
+                <button className="w-[240px] text-center h-[40px] mb-[25px] text-[14px] cursor-pointer hover:bg-[#000000] bg-[#000000] sm:bg-transparent text-white font-[500] border border-white uppercase">
                   shop this collection
                 </button>
               </div>
@@ -128,7 +132,7 @@ export default function MyCarousel() {
             <h3 className="text-[24px] block sm:hidden absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:text-[40px] font-medium text-center mb-[10px] uppercase text-[#ffffff]">
               milancelos
             </h3>
-            <div className="max-w-[455px] w-full mx-auto h-[174px] relative sm:absolute sm:top-1/2 p-5 lg:left-[21%] md:left-[4%] sm:-translate-y-1/2">
+            <div className="max-w-[455px] w-full mx-auto mb-[25px] sm:mb-0  h-[174px] relative sm:absolute sm:top-1/2 p-5 lg:left-[21%] md:left-[4%] sm:-translate-y-1/2">
               <h3 className="text-[24px] hidden sm:block lg:text-[40px] font-medium text-center mb-[10px] uppercase text-[#ffffff]">
                 milancelos
               </h3>
@@ -143,31 +147,6 @@ export default function MyCarousel() {
               </div>
             </div>
           </div>
-          {/* <div className="relative">
-            <Image
-              src="/images/hero-slider/slider3.jpg"
-              alt="Slide 2"
-              height={600}
-              width={1920}
-            />
-            <h3 className="text-[24px] block sm:hidden absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:text-[40px] font-medium text-center mb-[10px] uppercase text-[#ffffff]">
-              milancelos
-            </h3>
-            <div className="max-w-[455px] w-full h-[174px] mx-auto sm:absolute sm:top-1/2 p-5 sm:lg:left-[21%] md:left-[4%] sm:-translate-y-1/2">
-              <h3 className="text-[24px] hidden sm:block lg:text-[40px] font-medium text-center mb-[10px] uppercase text-[#ffffff]">
-                milancelos
-              </h3>
-              <p className="text-[12px] lg:text-[14px] font-normal leading-[22px] mb-[18px] text-center text-[#000000] sm:text-[#ffffff]">
-                Quisquemos sodales suscipit tortor ditaemcos milancelos
-                condimentum de cosmo lacus meleifend blanditios.
-              </p>
-              <div className="w-full flex justify-center">
-                <button className="w-[240px] text-center h-[40px] text-[14px] cursor-pointer hover:bg-[#000000] bg-[#000000] sm:bg-transparent text-white font-[500] border border-white uppercase">
-                  shop this collection
-                </button>
-              </div>
-            </div>
-          </div> */}
           <div className="">
             <Image
               src="/images/hero-slider/slider3.jpg"

@@ -124,10 +124,13 @@ const NewReleases = () => {
   };
   return (
     <div className="max-w-[1890px] lg:px-[60px] pt-[40px] mb-[60px] mx-auto pl-[20px] pr-[20px] w-full h-full">
-      <h3 className="text-[24px] text-[#0f0f0f] font-medium mb-[15px] text-center uppercase">
+      {/* <h3 className="text-[24px] text-[#0f0f0f] font-medium mb-[15px] text-center uppercase">
         new releases
+      </h3> */}
+      <h3 className="text-[24px] text-[#0f0f0f] font-medium mb-[30px] text-center uppercase">
+        related products
       </h3>
-      <ul className="flex items-center sm:justify-center overflow-x-auto whitespace-nowrap scroll-smooth pb-[15px] sm:pb-0 mb-[18px]">
+      {/* <ul className="flex items-center sm:justify-center overflow-x-auto whitespace-nowrap scroll-smooth pb-[15px] sm:pb-0 mb-[18px]">
         <li className="text-[14px] font-medium capitalize border border-[#5f5f5f] text-[#5f5f5f] rounded-[20px] px-[15px] py-[11px]">
           mens
         </li>
@@ -146,7 +149,7 @@ const NewReleases = () => {
         <li className="text-[14px] font-medium capitalize text-[#5f5f5f] rounded-[20px] px-[15px] py-[11px] whitespace-nowrap">
           special offers
         </li>
-      </ul>
+      </ul> */}
       <div className="w-full relative">
         <Slider
           // ref={sliderRef}
@@ -225,7 +228,6 @@ const NewReleases = () => {
                 </Link>
               </li>
             </ul>
-            <Link href="#">helo</Link>
           </div>
           <div className="relative text-center text-[#232323]">
             <div className="absolute top-0 left-0 w-full h-full p-[15px]">

@@ -250,7 +250,7 @@ const BlogPage = () => {
                 <ul className="list-none">
                   <li>
                     <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] capitalize">
-                      <Link href="#" className="whitespace-nowrap">
+                      <Link href="#" className="">
                         Commodo Muso Magna Cosmopolis
                       </Link>
                     </h1>

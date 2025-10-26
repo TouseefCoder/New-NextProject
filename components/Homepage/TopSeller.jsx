@@ -49,6 +49,12 @@ function PrevArrow(props) {
 const TopSeller = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+  useEffect(() => {
+    setTimeout(() => {
+      window.dispatchEvent(new Event("resize"));
+    }, 500);
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,

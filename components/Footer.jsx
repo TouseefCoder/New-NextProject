@@ -163,7 +163,7 @@ const Footer = () => {
       <div className="pt-[35px] pb-[55px] w-full">
         <div className="px-[15px] max-w-[1600px] w-full mx-auto">
           <div className="grid grid-cols-12 gap-[30px] sm:gap-[15px]">
-            <div className="col-span-12 sm:col-span-6 md:col-span-4 flex justify-center sm:justify-flex-start gap-x-[10px] sm:gap-x-0">
+            <div className="col-span-12 sm:col-span-6 md:col-span-4 flex justify-center sm:justify-flex-start gap-x-[0px] sm:gap-x-0">
               <div>
                 <Image
                   src="/images/footer-logos/1.png"

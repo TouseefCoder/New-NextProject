@@ -7,7 +7,11 @@ import { IoCartOutline, IoMenuSharp } from "react-icons/io5";
 import { MdOutlinePhone } from "react-icons/md";
 import { CiSearch, CiMail } from "react-icons/ci";
 import { VscMenu } from "react-icons/vsc";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import UserContent from "../MblScreenContent/UserInfo";
+import CartContent from "../MblScreenContent/Cart";
+import MainNavContent from "../MblScreenContent/MainNav";
+import MyContext from "@/context/MyContext";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -15,21 +19,20 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
+  const {
+    navLeft,
+    setNavLeft,
+    cartOpen,
+    setCartOpen,
+    user,
+    setUser,
+    rightNav,
+    setRightNav,
+    scrolled,
+    setScrolled,
+  } = useContext(MyContext);
   console.log(scrolled);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 10) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    });
-    return () => {
-      window.removeEventListener("scroll", () => {});
-    };
-  }, []);
   return (
     <>
       <div
@@ -83,8 +86,9 @@ const Navbar = () => {
             <ul className="flex xl:hidden justify-start items-center w-full h-full gap-6 text-[15px] font-medium">
               <li>
                 <Link
+                  onClick={() => setNavLeft(!navLeft)}
                   className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-[#ffffff] tracking-widest flex items-center gap-1`}
-                  href="/"
+                  href="#"
                 >
                   <VscMenu size={28} />
                 </Link>
@@ -129,7 +133,7 @@ const Navbar = () => {
                   <li className="">
                     <Link
                       className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
-                      href="/"
+                      href="/product-details"
                     >
                       New Releases
                     </Link>
@@ -138,7 +142,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
-                      href="/men"
+                      href={"/men"}
                     >
                       mens
                     </Link>
@@ -147,7 +151,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
-                      href="/"
+                      href={"/women"}
                     >
                       womens
                     </Link>
@@ -156,7 +160,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
-                      href="/"
+                      href="/men"
                     >
                       Jewelery
                     </Link>
@@ -165,7 +169,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
-                      href="/"
+                      href="/men"
                     >
                       accessories
                     </Link>
@@ -209,15 +213,16 @@ const Navbar = () => {
                   href="/"
                 >
                   <span className="hidden xl:flex">account</span>
-                  <CiUser size={22} />
+                  <CiUser size={22} onClick={() => setUser(!user)} />
                 </Link>
               </li>
               <li className="relative">
                 <Link
+                  onClick={() => setCartOpen(!cartOpen)}
                   className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest flex items-center gap-1`}
-                  href="/"
+                  href="#"
                 >
-                  <span className="hidden xl:flex">cart</span>{" "}
+                  <span className="hidden xl:flex">cart</span>
                   <IoCartOutline size={20} />
                   <span className="absolute top-[-10px] right-[-10px] flex h-[22px] w-[22px] items-center justify-center rounded-full bg-[#b20000] text-[#ffffff]">
                     0
@@ -238,8 +243,9 @@ const Navbar = () => {
               </li>
               <li className="hidden xl:flex ">
                 <Link
+                  onClick={() => setRightNav(!rightNav)}
                   className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest flex items-center gap-1`}
-                  href="/"
+                  href="#"
                 >
                   <VscMenu size={28} />
                 </Link>
@@ -253,7 +259,7 @@ const Navbar = () => {
               <li className="">
                 <Link
                   className={`font-medium uppercase text-[12px] text-white tracking-widest`}
-                  href="/"
+                  href="/product-details"
                 >
                   New Releases
                 </Link>
@@ -271,7 +277,7 @@ const Navbar = () => {
               <li>
                 <Link
                   className={`font-medium uppercase text-[12px] text-white tracking-widest`}
-                  href="/"
+                  href="/men"
                 >
                   womens
                 </Link>
@@ -280,7 +286,7 @@ const Navbar = () => {
               <li>
                 <Link
                   className={`font-medium uppercase text-[12px] text-white tracking-widest`}
-                  href="/"
+                  href="/men"
                 >
                   Jewelery
                 </Link>
@@ -298,7 +304,7 @@ const Navbar = () => {
               <li>
                 <Link
                   className={`font-medium uppercase text-[12px] text-white tracking-widest`}
-                  href="/"
+                  href="/blog"
                 >
                   blog
                 </Link>

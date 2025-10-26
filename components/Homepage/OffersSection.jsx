@@ -46,6 +46,13 @@ function PrevArrow(props) {
 const TopSeller = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+  useEffect(() => {
+    const handle = setTimeout(() => {
+      window.dispatchEvent(new Event("resize"));
+    }, 500);
+    return () => clearTimeout(handle);
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -78,7 +85,7 @@ const TopSeller = () => {
     ),
     responsive: [
       {
-        breakpoint: 14440,
+        breakpoint: 1440,
         settings: {
           slidesToShow: 5,
           slidesToScroll: 3,
