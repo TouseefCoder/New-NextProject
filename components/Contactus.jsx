@@ -44,7 +44,7 @@ const Contactus = () => {
           />
           <input
             type="submit"
-            className="sm:max-w-[146px] w-full px-[15px] bg-[#0f0f0f] text-[#ffffff] text-[14px] py-[7px] cursor-pointer uppercase"
+            className="sm:max-w-[146px] w-full px-[15px] bg-[#f8941e] text-[#ffffff] text-[14px] py-[7px] cursor-pointer uppercase"
             value="submit"
           />
         </form>
@@ -52,7 +52,7 @@ const Contactus = () => {
           Click here to read information on how LUXWatches processes your
           personal data
         </p>
-        <div className="icons text-center text-[#ffffff] flex justify-center gap-x-[15px]">
+        <div className="icons text-center text-[#b87427] flex justify-center gap-x-[15px]">
           <FaFacebookF />
           <FaTwitter />
           <TiSocialGooglePlus />

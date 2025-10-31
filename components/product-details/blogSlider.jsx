@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
 import Slider from "react-slick";
-// import styles from "./newreleases.module.css";
+import styles from "./newreleases.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
@@ -16,8 +16,8 @@ function NextArrow(props) {
 
   return (
     <div
-      className={`hidden xl:block absolute right-0 top-1/3 transform -translate-y-1/3 
-        text-black rounded-full z-10 
+      className={`hidden lg:block absolute right-0 top-1/3 transform -translate-y-1/3 
+        h-[40px] w-[40px] bg-black text-white rounded-full p-2 z-10 
         ${
           isDisabled
             ? "opacity-40 cursor-not-allowed"
@@ -25,7 +25,7 @@ function NextArrow(props) {
         }`}
       onClick={!isDisabled ? onClick : undefined}
     >
-      <ChevronRight size={"40px"} />
+      <ChevronRight />
     </div>
   );
 }
@@ -35,21 +35,25 @@ function PrevArrow(props) {
   const isHidden = currentSlide === 0;
   return (
     <div
-      className={`hidden xl:block absolute left-0 top-1/3 transform -translate-y-1/3  text-black rounded-full z-10 ${
-        isHidden
-          ? "opacity-40  cursor-not-allowed"
-          : "opacity-100 cursor-pointer"
+      className={`hidden lg:block absolute left-0 top-1/3 transform -translate-y-1/3 h-[40px] w-[40px] bg-black text-white rounded-full p-2 z-10 ${
+        isHidden ? "opacity-40" : "opacity-100"
       }`}
       onClick={onClick}
       disabled={isHidden}
     >
-      <ChevronLeft size={"40px"} />
+      <ChevronLeft />
     </div>
   );
 }
 
 const BlogSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.dispatchEvent(new Event("resize"));
+    }, 500);
+  }, []);
 
   const settings = {
     dots: true,
@@ -76,7 +80,7 @@ const BlogSlider = () => {
     ),
     customPaging: (i) => (
       <div
-        className={`w-[8px] h-[8px] rounded-full transition-all duration-300 ${
+        className={`w-[8px] h-[8px] sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
           i === activeIndex
             ? "border border-gray-400"
             : "bg-gray-400 hover:bg-gray-600"
@@ -86,9 +90,9 @@ const BlogSlider = () => {
   };
   return (
     <div className="w-full relative mt-[15px]">
-      <Slider {...settings}>
+      <Slider {...settings} className={`${styles.sliderContainer}`}>
         <div className="relative h-auto text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
@@ -106,7 +110,7 @@ const BlogSlider = () => {
             </p>
           </div>
           <Image
-            src="/images/new releases/1.jpg"
+            src="/images/new releases/11.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -121,7 +125,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -129,7 +133,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -137,7 +141,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -145,7 +149,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -167,7 +171,7 @@ const BlogSlider = () => {
           </div>
         </div>
         <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
@@ -185,7 +189,7 @@ const BlogSlider = () => {
               </p> */}
           </div>
           <Image
-            src="/images/new releases/2.jpg"
+            src="/images/new releases/12.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -199,7 +203,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -207,7 +211,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -215,7 +219,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -223,7 +227,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -245,7 +249,7 @@ const BlogSlider = () => {
           </div>
         </div>
         <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
@@ -263,7 +267,7 @@ const BlogSlider = () => {
             </p>
           </div>
           <Image
-            src="/images/new releases/3.jpg"
+            src="/images/new releases/13.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -277,7 +281,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -285,7 +289,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -293,7 +297,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -301,7 +305,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -323,7 +327,7 @@ const BlogSlider = () => {
           </div>
         </div>
         <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             {/* <p className="pt-0 top-content text-end mb-[5px]">
                 <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                   New
@@ -341,7 +345,7 @@ const BlogSlider = () => {
               </p> */}
           </div>
           <Image
-            src="/images/new releases/4.jpg"
+            src="/images/new releases/14.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -355,7 +359,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -363,7 +367,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -371,7 +375,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -379,7 +383,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -401,7 +405,7 @@ const BlogSlider = () => {
           </div>
         </div>
         <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
@@ -419,7 +423,7 @@ const BlogSlider = () => {
               </p> */}
           </div>
           <Image
-            src="/images/new releases/5.jpg"
+            src="/images/new releases/15.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -433,7 +437,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -441,7 +445,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -449,7 +453,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -457,7 +461,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -479,7 +483,7 @@ const BlogSlider = () => {
           </div>
         </div>
         <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
@@ -497,7 +501,7 @@ const BlogSlider = () => {
               </p> */}
           </div>
           <Image
-            src="/images/new releases/6.jpg"
+            src="/images/new releases/16.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -511,7 +515,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -519,7 +523,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -527,7 +531,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -535,7 +539,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -557,7 +561,7 @@ const BlogSlider = () => {
           </div>
         </div>
         <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
@@ -575,7 +579,7 @@ const BlogSlider = () => {
               </p> */}
           </div>
           <Image
-            src="/images/new releases/7.jpg"
+            src="/images/new releases/17.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -589,7 +593,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -597,7 +601,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -605,7 +609,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -613,7 +617,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -635,7 +639,7 @@ const BlogSlider = () => {
           </div>
         </div>
         <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
@@ -653,7 +657,7 @@ const BlogSlider = () => {
               </p> */}
           </div>
           <Image
-            src="/images/new releases/8.jpg"
+            src="/images/new releases/18.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -667,7 +671,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -675,7 +679,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -683,7 +687,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -691,85 +695,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
-                height={22}
-                width={22}
-                alt="price image"
-              />
-            </li>
-            <li>
-              <Link
-                href="#"
-                className="text-[#787878] text-[12px] font-[400px]"
-              >
-                +2
-              </Link>
-            </li>
-          </ul>
-          <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
-            <Link href="#" className="uppercase font-medium">
-              select options
-            </Link>
-          </div>
-        </div>
-        <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
-            <p className="pt-0 top-content text-end mb-[5px]">
-              <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
-                New
-              </span>
-            </p>
-            {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
-                  sale
-                </span>
-              </p> */}
-            {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
-                  online only
-                </span>
-              </p> */}
-          </div>
-          <Image
-            src="/images/new releases/9.jpg"
-            alt="image 1"
-            height={500}
-            width={500}
-            className="mb-[12px]"
-          />
-          <p className="text-[12px] ">Mangos</p>
-          <p className="leading-[22px] text-[14px] font-medium mb-[4px] ">
-            Ampus Cosmo De Milancelos Scelerisque
-          </p>
-          <p className="text-[14px] font-[400] mb-[15px]">$ 500.00</p>
-          <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
-            <li>
-              <Image
-                src="/images/new releases/1.jpg"
-                height={22}
-                width={22}
-                alt="price image"
-              />
-            </li>
-            <li>
-              <Image
-                src="/images/new releases/1.jpg"
-                height={22}
-                width={22}
-                alt="price image"
-              />
-            </li>
-            <li>
-              <Image
-                src="/images/new releases/1.jpg"
-                height={22}
-                width={22}
-                alt="price image"
-              />
-            </li>
-            <li>
-              <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -791,7 +717,7 @@ const BlogSlider = () => {
           </div>
         </div>
         <div className="relative text-center text-[#232323]">
-          <div className="absolute top-0 left-0 w-full h-auto ">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
@@ -809,7 +735,7 @@ const BlogSlider = () => {
               </p> */}
           </div>
           <Image
-            src="/images/new releases/10.jpg"
+            src="/images/new releases/19.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -823,7 +749,7 @@ const BlogSlider = () => {
           <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -831,7 +757,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -839,7 +765,7 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -847,7 +773,85 @@ const BlogSlider = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
+                height={22}
+                width={22}
+                alt="price image"
+              />
+            </li>
+            <li>
+              <Link
+                href="#"
+                className="text-[#787878] text-[12px] font-[400px]"
+              >
+                +2
+              </Link>
+            </li>
+          </ul>
+          <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <Link href="#" className="uppercase font-medium">
+              select options
+            </Link>
+          </div>
+        </div>
+        <div className="relative text-center text-[#232323]">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
+            <p className="pt-0 top-content text-end mb-[5px]">
+              <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
+                New
+              </span>
+            </p>
+            {/* <p className="pt-0 top-content text-end mb-[5px]">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                  sale
+                </span>
+              </p> */}
+            {/* <p className="pt-0 top-content text-end mb-[5px]">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                  online only
+                </span>
+              </p> */}
+          </div>
+          <Image
+            src="/images/new releases/20.jpg"
+            alt="image 1"
+            height={500}
+            width={500}
+            className="mb-[12px]"
+          />
+          <p className="text-[12px] ">Mangos</p>
+          <p className="leading-[22px] text-[14px] font-medium mb-[4px] ">
+            Ampus Cosmo De Milancelos Scelerisque
+          </p>
+          <p className="text-[14px] font-[400] mb-[15px]">$ 500.00</p>
+          <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
+            <li>
+              <Image
+                src="/images/new releases/11.jpg"
+                height={22}
+                width={22}
+                alt="price image"
+              />
+            </li>
+            <li>
+              <Image
+                src="/images/new releases/12.jpg"
+                height={22}
+                width={22}
+                alt="price image"
+              />
+            </li>
+            <li>
+              <Image
+                src="/images/new releases/13.jpg"
+                height={22}
+                width={22}
+                alt="price image"
+              />
+            </li>
+            <li>
+              <Image
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -869,6 +873,20 @@ const BlogSlider = () => {
           </div>
         </div>
       </Slider>
+
+      {/* <div className="flex lg:hidden justify-center mt-6 items-center gap-3">
+          {Array.from({ length: totalDots }).map((_, i) => (
+            <div
+              key={i}
+              onClick={() => handleDotClick(i)}
+              className={` w-3 h-3 rounded-full cursor-pointer transition-all duration-300 ${
+                i === activeIndex
+                  ? "bg-gray-800 scale-110"
+                  : "bg-gray-400 hover:bg-gray-600"
+              }`}
+            ></div>
+          ))}
+        </div> */}
     </div>
   );
 };

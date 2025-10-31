@@ -18,7 +18,7 @@ const page = () => {
         <Navbar />
         <div className="h-[320px] w-full scroll-mt-[160px]">
           <Image
-            src="/images/hero-slider/slider3.jpg"
+            src="/images/hero-slider/slider4.jpeg"
             height={340}
             width={2000}
             alt="men"
@@ -26,7 +26,7 @@ const page = () => {
           />
         </div>
         <div className="w-full max-w-[1170px] mx-auto mt-[30px] mb-[45px] xl:my-[45px] px-[10px] xl:px-[15px]">
-          <h3 className="text-[24px] text-[#0f0f0f] tracking-[.05rem] mb-[20px] font-medium text-center uppercase">
+          <h3 className="text-[24px] text-[#433b32] tracking-[.05rem] mb-[20px] font-medium text-center uppercase">
             mens
           </h3>
           <p className="text-center text-[#5a5a5a] text-[12px]">
@@ -56,7 +56,7 @@ const page = () => {
                 <h2 className="text-[12px] tracking-[.05em] mr-[15px] text-[#232323] font-medium uppercase">
                   view as
                 </h2>
-                <div className="flex items-center divide-x divide-[#dadada] border border-[#dadada]">
+                <div className="flex items-center divide-x divide-[#f8941e] border border-[#f8941e]">
                   <span className="h-[45px] w-[45px] flex items-center justify-center">
                     <BsFillGrid3X3GapFill size={14} />
                   </span>
@@ -71,11 +71,11 @@ const page = () => {
                 show
               </h2>
               <div className="relative">
-                <div className="text-[12px] text-[#5f5f5f] flex justify-between items-center w-[187px] h-[42px] py-[10px] px-[15px] border border-[#dadada]">
+                <div className="text-[12px] text-[#5f5f5f] flex justify-between items-center w-[187px] h-[42px] py-[10px] px-[15px] border border-[#f8941e]">
                   <p>16 shows</p>
                   <FaAngleDown size={12} />
                 </div>
-                <div className="absolute z-20 mt-[5px] text-[12px] text-[#5f5f5f] bg-[#fff] w-[187px] py-[10px] px-[15px] border border-[#dadada]">
+                <div className="absolute z-20 mt-[5px] text-[12px] text-[#5f5f5f] bg-[#fff] w-[187px] py-[10px] px-[15px] border border-[#f8941e]">
                   <ul>
                     <li className="py-[8px]">16 shows</li>
                     <li className="py-[8px]">16 shows</li>
@@ -91,11 +91,11 @@ const page = () => {
                 sort by
               </h2>
               <div className="relative">
-                <div className="text-[12px] text-[#5f5f5f] flex justify-between items-center w-[187px] h-[42px] py-[10px] px-[15px] border border-[#dadada]">
+                <div className="text-[12px] text-[#5f5f5f] flex justify-between items-center w-[187px] h-[42px] py-[10px] px-[15px] border border-[#f8941e]">
                   <p>Featured</p>
                   <FaAngleDown size={12} />
                 </div>
-                <div className="absolute hidden mt-[5px] text-[12px] bg-[#fff] text-[#5f5f5f] w-[187px] py-[10px] px-[15px] border border-[#dadada]">
+                <div className="absolute hidden mt-[5px] text-[12px] bg-[#fff] text-[#5f5f5f] w-[187px] py-[10px] px-[15px] border border-[#f8941e]">
                   <ul>
                     <li className="py-[8px]">16 shows</li>
                     <li className="py-[8px]">16 shows</li>
@@ -118,18 +118,18 @@ const page = () => {
                   </span>
                 </p>
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                          <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
-                            sale
-                          </span>
-                        </p> */}
+                            <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
+                              sale
+                            </span>
+                          </p> */}
                 <p className="pt-0 top-content text-end mb-[5px]">
-                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
                     online only
                   </span>
                 </p>
               </div>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 alt="image 1"
                 height={500}
                 width={500}
@@ -144,7 +144,7 @@ const page = () => {
               <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/11.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -152,7 +152,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/12.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -160,7 +160,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/13.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -168,7 +168,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/14.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -183,7 +183,7 @@ const page = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] text-[#ffffff] max-w-[240px] p-[15px]">
+              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] text-[#ffffff] max-w-[240px] p-[15px]">
                 <Link href="#" className="uppercase font-medium">
                   select options
                 </Link>
@@ -199,18 +199,18 @@ const page = () => {
                   </span>
                 </p>
                 <p className="pt-0 top-content text-end mb-[5px]">
-                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                     sale
                   </span>
                 </p>
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
                   online only
                 </span>
               </p> */}
               </div>
               <Image
-                src="/images/new releases/2.jpg"
+                src="/images/new releases/12.jpg"
                 alt="image 1"
                 height={500}
                 width={500}
@@ -224,7 +224,7 @@ const page = () => {
               <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/11.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -232,7 +232,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/12.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -240,7 +240,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/13.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -248,7 +248,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/14.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -263,7 +263,7 @@ const page = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
                 <Link href="#" className="uppercase font-medium">
                   select options
                 </Link>
@@ -273,24 +273,24 @@ const page = () => {
           <div className="col-span-12 md:col-span-6 lg:col-span-3">
             <div className="relative text-center text-[#232323]">
               <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
-                <p className="pt-0 top-content text-end mb-[5px]">
-                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
-                    New
-                  </span>
-                </p>
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
+                  New
+                </span>
+              </p> */}
+                {/* <p className="pt-0 top-content text-end mb-[5px]">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
-                <p className="pt-0 top-content text-end mb-[5px]">
-                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
-                    online only
-                  </span>
-                </p>
+                {/* <p className="pt-0 top-content text-end mb-[5px]">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
+                  online only
+                </span>
+              </p> */}
               </div>
               <Image
-                src="/images/new releases/3.jpg"
+                src="/images/new releases/14.jpg"
                 alt="image 1"
                 height={500}
                 width={500}
@@ -304,7 +304,7 @@ const page = () => {
               <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/11.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -312,7 +312,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/12.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -320,7 +320,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/13.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -328,7 +328,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/14.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -343,87 +343,7 @@ const page = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
-                <Link href="#" className="uppercase font-medium">
-                  select options
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-span-12 md:col-span-6 lg:col-span-3">
-            <div className="relative text-center text-[#232323]">
-              <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
-                {/* <p className="pt-0 top-content text-end mb-[5px]">
-                          <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
-                            New
-                          </span>
-                        </p> */}
-                {/* <p className="pt-0 top-content text-end mb-[5px]">
-                          <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
-                            sale
-                          </span>
-                        </p> */}
-                {/* <p className="pt-0 top-content text-end mb-[5px]">
-                          <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
-                            online only
-                          </span>
-                        </p> */}
-              </div>
-              <Image
-                src="/images/new releases/4.jpg"
-                alt="image 1"
-                height={500}
-                width={500}
-                className="mb-[12px]"
-              />
-              <p className="text-[12px] ">Mangos</p>
-              <p className="leading-[22px] text-[14px] font-medium mb-[4px] ">
-                Ampus Cosmo De Milancelos Scelerisque
-              </p>
-              <p className="text-[14px] font-[400] mb-[15px]">$ 500.00</p>
-              <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
-                <li>
-                  <Image
-                    src="/images/new releases/1.jpg"
-                    height={22}
-                    width={22}
-                    alt="price image"
-                  />
-                </li>
-                <li>
-                  <Image
-                    src="/images/new releases/1.jpg"
-                    height={22}
-                    width={22}
-                    alt="price image"
-                  />
-                </li>
-                <li>
-                  <Image
-                    src="/images/new releases/1.jpg"
-                    height={22}
-                    width={22}
-                    alt="price image"
-                  />
-                </li>
-                <li>
-                  <Image
-                    src="/images/new releases/1.jpg"
-                    height={22}
-                    width={22}
-                    alt="price image"
-                  />
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="text-[#787878] text-[12px] font-[400px]"
-                  >
-                    +2
-                  </Link>
-                </li>
-              </ul>
-              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#787878] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] opacity-[0.6] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
                 <Link href="#" className="uppercase font-medium">
                   unavailable
                 </Link>
@@ -439,18 +359,18 @@ const page = () => {
                   </span>
                 </p>
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
                   online only
                 </span>
               </p> */}
               </div>
               <Image
-                src="/images/new releases/5.jpg"
+                src="/images/new releases/15.jpg"
                 alt="image 1"
                 height={500}
                 width={500}
@@ -464,7 +384,7 @@ const page = () => {
               <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/11.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -472,7 +392,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/12.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -480,7 +400,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/13.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -488,7 +408,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/14.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -503,7 +423,7 @@ const page = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
                 <Link href="#" className="uppercase font-medium">
                   select options
                 </Link>
@@ -519,18 +439,18 @@ const page = () => {
                   </span>
                 </p>
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
                   online only
                 </span>
               </p> */}
               </div>
               <Image
-                src="/images/new releases/6.jpg"
+                src="/images/new releases/16.jpg"
                 alt="image 1"
                 height={500}
                 width={500}
@@ -544,7 +464,7 @@ const page = () => {
               <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/11.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -552,7 +472,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/12.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -560,7 +480,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/13.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -568,7 +488,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/14.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -583,7 +503,87 @@ const page = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#787878] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] opacity-[0.6] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+                <Link href="#" className="uppercase font-medium">
+                  unavailable
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-12 md:col-span-6 lg:col-span-3">
+            <div className="relative text-center text-[#232323]">
+              <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
+                <p className="pt-0 top-content text-end mb-[5px]">
+                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
+                    New
+                  </span>
+                </p>
+                {/* <p className="pt-0 top-content text-end mb-[5px]">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
+                  sale
+                </span>
+              </p> */}
+                {/* <p className="pt-0 top-content text-end mb-[5px]">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
+                  online only
+                </span>
+              </p> */}
+              </div>
+              <Image
+                src="/images/new releases/16.jpg"
+                alt="image 1"
+                height={500}
+                width={500}
+                className="mb-[12px]"
+              />
+              <p className="text-[12px] ">Mangos</p>
+              <p className="leading-[22px] text-[14px] font-medium mb-[4px] ">
+                Ampus Cosmo De Milancelos Scelerisque
+              </p>
+              <p className="text-[14px] font-[400] mb-[15px]">$ 500.00</p>
+              <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
+                <li>
+                  <Image
+                    src="/images/new releases/11.jpg"
+                    height={22}
+                    width={22}
+                    alt="price image"
+                  />
+                </li>
+                <li>
+                  <Image
+                    src="/images/new releases/12.jpg"
+                    height={22}
+                    width={22}
+                    alt="price image"
+                  />
+                </li>
+                <li>
+                  <Image
+                    src="/images/new releases/13.jpg"
+                    height={22}
+                    width={22}
+                    alt="price image"
+                  />
+                </li>
+                <li>
+                  <Image
+                    src="/images/new releases/14.jpg"
+                    height={22}
+                    width={22}
+                    alt="price image"
+                  />
+                </li>
+                <li>
+                  <Link
+                    href="#"
+                    className="text-[#787878] text-[12px] font-[400px]"
+                  >
+                    +2
+                  </Link>
+                </li>
+              </ul>
+              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] opacity-[0.6] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
                 <Link href="#" className="uppercase font-medium">
                   unavailable
                 </Link>
@@ -599,18 +599,18 @@ const page = () => {
                   </span>
                 </p>
                 <p className="pt-0 top-content text-end mb-[5px]">
-                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                     sale
                   </span>
                 </p>
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
                   online only
                 </span>
               </p> */}
               </div>
               <Image
-                src="/images/new releases/7.jpg"
+                src="/images/new releases/17.jpg"
                 alt="image 1"
                 height={500}
                 width={500}
@@ -624,7 +624,7 @@ const page = () => {
               <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/11.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -632,7 +632,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/12.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -640,7 +640,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/13.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -648,7 +648,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/14.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -663,7 +663,7 @@ const page = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
                 <Link href="#" className="uppercase font-medium">
                   select options
                 </Link>
@@ -678,19 +678,19 @@ const page = () => {
                     New
                   </span>
                 </p>
+                <p className="pt-0 top-content text-end mb-[5px]">
+                  <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
+                    sale
+                  </span>
+                </p>
                 {/* <p className="pt-0 top-content text-end mb-[5px]">
-                            <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
-                              sale
-                            </span>
-                          </p> */}
-                {/* <p className="pt-0 top-content text-end mb-[5px]">
-                            <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
-                              online only
-                            </span>
-                          </p> */}
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
+                  online only
+                </span>
+              </p> */}
               </div>
               <Image
-                src="/images/new releases/10.jpg"
+                src="/images/new releases/18.jpg"
                 alt="image 1"
                 height={500}
                 width={500}
@@ -701,10 +701,10 @@ const page = () => {
                 Ampus Cosmo De Milancelos Scelerisque
               </p>
               <p className="text-[14px] font-[400] mb-[15px]">$ 500.00</p>
-              <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
+              <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/11.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -712,7 +712,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/12.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -720,7 +720,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/13.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -728,7 +728,7 @@ const page = () => {
                 </li>
                 <li>
                   <Image
-                    src="/images/new releases/1.jpg"
+                    src="/images/new releases/14.jpg"
                     height={22}
                     width={22}
                     alt="price image"
@@ -743,7 +743,7 @@ const page = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+              <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
                 <Link href="#" className="uppercase font-medium">
                   select options
                 </Link>
@@ -759,13 +759,13 @@ const page = () => {
             <span className="underline underline-offset-1">
               compare selected
             </span>
-            <span className="h-[22px] w-[22px] rounded-full bg-[#b20000] text-[#ffffff] flex items-center justify-center ml-[5px]">
+            <span className="h-[22px] w-[22px] rounded-full bg-[#f8941e] text-[#ffffff] flex items-center justify-center ml-[5px]">
               0
             </span>
           </Link>
         </div>
         <div className="w-full max-w-[1170px] mx-auto px-[10px] xl:px-[15px]">
-          <h3 className="text-[24px] text-[#0f0f0f] tracking-[.05rem]  mt-[25px] mb-[60px] font-medium text-center uppercase">
+          <h3 className="text-[24px] text-[#433b32] tracking-[.05rem]  mt-[25px] mb-[60px] font-medium text-center uppercase">
             recently viewed products
           </h3>
           <div className="grid grid-cols-12 gap-[15px]">
@@ -778,23 +778,23 @@ const page = () => {
                     </span>
                   </p>
                   {/* <p className="pt-0 top-content text-end mb-[5px]">
-                          <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                          <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                             sale
                           </span>
                         </p> */}
                   <p className="pt-0 top-content text-end mb-[5px]">
-                    <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                    <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[text-[12px] font-[400] text-[#ffffff] bg-[#232323]] capitalize">
                       online only
                     </span>
                   </p>
                 </div>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   alt="image 1"
                   height={500}
                   width={500}
                 />
-                <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] text-[#ffffff] w-full p-[15px]">
+                <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] text-[#ffffff] w-full p-[15px]">
                   <Link href="#" className="uppercase font-medium">
                     select options
                   </Link>
@@ -864,7 +864,7 @@ const page = () => {
             <Link href="#" className="text-center text-[#5a5a5a] text-[12px]">
               Home
             </Link>
-            <FaAngleRight className="text-[#5a5a5a] text-[12px]" />
+            <FaAngleRight className="text-[#f8941e] text-[12px]" />
             <Link href="#" className="text-center text-[#5a5a5a] text-[12px]">
               Accessories
             </Link>

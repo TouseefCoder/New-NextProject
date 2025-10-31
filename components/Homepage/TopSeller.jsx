@@ -73,7 +73,7 @@ const TopSeller = () => {
           transform: "translateX(-50%)",
         }}
       >
-        <ul className="flex sm:hidden justify-center space-x-2 m-0 p-0">
+        <ul className="flex xl:hidden justify-center space-x-2 m-0 p-0">
           {dots}
         </ul>
       </div>
@@ -110,7 +110,7 @@ const TopSeller = () => {
   };
   return (
     <div className="max-w-[1600px] w-full mx-auto mb-[60px]">
-      <h3 className="text-[24px] text-[#0f0f0f] font-medium pt-[40px] mb-[25px] text-center uppercase">
+      <h3 className="text-[24px] text-[#433b32] font-medium pt-[40px] mb-[25px] text-center uppercase">
         top sellers
       </h3>
 
@@ -124,18 +124,18 @@ const TopSeller = () => {
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
               <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p>
             </div>
             <Image
-              src="/images/new releases/1.jpg"
+              src="/images/new releases/11.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -150,7 +150,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -158,7 +158,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -166,7 +166,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -174,7 +174,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -189,7 +189,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] text-[#ffffff] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] hover:bg-transparent hover:border border-[#f8941e]  text-white hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 select options
               </Link>
@@ -203,18 +203,18 @@ const TopSeller = () => {
                 </span>
               </p>
               <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p> */}
             </div>
             <Image
-              src="/images/new releases/2.jpg"
+              src="/images/new releases/12.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -228,7 +228,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -236,7 +236,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -244,7 +244,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -252,7 +252,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -267,7 +267,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 select options
               </Link>
@@ -281,18 +281,18 @@ const TopSeller = () => {
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
               <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p>
             </div>
             <Image
-              src="/images/new releases/3.jpg"
+              src="/images/new releases/13.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -306,7 +306,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -314,7 +314,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -322,7 +322,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -330,7 +330,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -345,7 +345,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 select options
               </Link>
@@ -359,18 +359,18 @@ const TopSeller = () => {
                 </span>
               </p> */}
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p> */}
             </div>
             <Image
-              src="/images/new releases/4.jpg"
+              src="/images/new releases/14.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -384,7 +384,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -392,7 +392,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -400,7 +400,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -408,7 +408,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -423,7 +423,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#787878] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto opacity-[0.6] bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 unavailable
               </Link>
@@ -437,18 +437,18 @@ const TopSeller = () => {
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p> */}
             </div>
             <Image
-              src="/images/new releases/5.jpg"
+              src="/images/new releases/15.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -462,7 +462,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -470,7 +470,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -478,7 +478,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -486,7 +486,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -501,7 +501,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 select options
               </Link>
@@ -515,18 +515,18 @@ const TopSeller = () => {
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p> */}
             </div>
             <Image
-              src="/images/new releases/6.jpg"
+              src="/images/new releases/16.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -540,7 +540,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -548,7 +548,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -556,7 +556,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -564,7 +564,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -579,7 +579,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#787878] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto opacity-[0.6] bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 unavailable
               </Link>
@@ -593,18 +593,18 @@ const TopSeller = () => {
                 </span>
               </p>
               <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p> */}
             </div>
             <Image
-              src="/images/new releases/7.jpg"
+              src="/images/new releases/17.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -618,7 +618,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -626,7 +626,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -634,7 +634,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -642,7 +642,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -657,7 +657,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 select options
               </Link>
@@ -671,18 +671,18 @@ const TopSeller = () => {
                 </span>
               </p>
               <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p> */}
             </div>
             <Image
-              src="/images/new releases/8.jpg"
+              src="/images/new releases/18.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -696,7 +696,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -704,7 +704,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -712,7 +712,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -720,7 +720,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -735,7 +735,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 select options
               </Link>
@@ -749,18 +749,18 @@ const TopSeller = () => {
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p> */}
             </div>
             <Image
-              src="/images/new releases/9.jpg"
+              src="/images/new releases/19.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -774,7 +774,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -782,7 +782,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -790,7 +790,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -798,7 +798,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -813,7 +813,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 select options
               </Link>
@@ -827,18 +827,18 @@ const TopSeller = () => {
                 </span>
               </p>
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                   sale
                 </span>
               </p> */}
               {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                   online only
                 </span>
               </p> */}
             </div>
             <Image
-              src="/images/new releases/10.jpg"
+              src="/images/new releases/20.jpg"
               alt="image 1"
               height={500}
               width={500}
@@ -852,7 +852,7 @@ const TopSeller = () => {
             <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/11.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -860,7 +860,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/12.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -868,7 +868,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/13.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -876,7 +876,7 @@ const TopSeller = () => {
               </li>
               <li>
                 <Image
-                  src="/images/new releases/1.jpg"
+                  src="/images/new releases/14.jpg"
                   height={22}
                   width={22}
                   alt="price image"
@@ -891,7 +891,7 @@ const TopSeller = () => {
                 </Link>
               </li>
             </ul>
-            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#0f0f0f] text-[#ffffff] hover:bg-transparent hover:border border-[#0f0f0f] hover:text-[#0f0f0f] max-w-[240px] p-[15px]">
+            <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
               <Link href="#" className="uppercase font-medium">
                 select options
               </Link>

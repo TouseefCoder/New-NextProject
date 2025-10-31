@@ -156,26 +156,27 @@ const RecentlyViewed = () => {
           {...settings}
           className={`${styles.sliderContainer}`}
         > */}
-        <div className="relative text-center text-[#232323] col-span-2">
-          <div className="absolute top-0 left-0 w-full h-full p-[15px] bg-transparent">
+
+        <div className="relative h-auto text-center text-[#232323] col-span-2">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
               </span>
             </p>
             {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
-                  sale
-                </span>
-              </p> */}
+                        <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
+                          sale
+                        </span>
+                      </p> */}
             <p className="pt-0 top-content text-end mb-[5px]">
-              <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
+              <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
                 online only
               </span>
             </p>
           </div>
           <Image
-            src="/images/new releases/1.jpg"
+            src="/images/new releases/11.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -186,10 +187,11 @@ const RecentlyViewed = () => {
             Ampus Cosmo De Milancelos Scelerisque
           </p>
           <p className="text-[14px] font-[400] mb-[15px]">$ 500.00</p>
-          <ul className="flex items-center justify-center gap-x-[2px]">
+
+          <ul className="flex items-center mb-[25px]  justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -197,7 +199,7 @@ const RecentlyViewed = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -205,7 +207,7 @@ const RecentlyViewed = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -213,7 +215,7 @@ const RecentlyViewed = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -228,27 +230,32 @@ const RecentlyViewed = () => {
               </Link>
             </li>
           </ul>
+          <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] hover:bg-transparent hover:border border-[#f8941e]  text-white hover:text-[#f8941e] max-w-[240px] p-[15px]">
+            <Link href="#" className="uppercase font-medium">
+              select options
+            </Link>
+          </div>
         </div>
         <div className="relative text-center text-[#232323] col-span-2">
-          <div className="absolute top-0 left-0 w-full h-full p-[15px]">
+          <div className="absolute top-0 left-0 w-full h-auto p-[15px]">
             <p className="pt-0 top-content text-end mb-[5px]">
               <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#0073bd]">
                 New
               </span>
             </p>
             <p className="pt-0 top-content text-end mb-[5px]">
-              <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#b20000] capitalize">
+              <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#f8941e] capitalize">
                 sale
               </span>
             </p>
             {/* <p className="pt-0 top-content text-end mb-[5px]">
-                <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#232323] capitalize">
-                  online only
-                </span>
-              </p> */}
+                        <span className="mt-0 px-[7px] pt-[4px] pb-[3px] text-[12px] font-[400] text-[#ffffff] bg-[#433b32] capitalize">
+                          online only
+                        </span>
+                      </p> */}
           </div>
           <Image
-            src="/images/new releases/2.jpg"
+            src="/images/new releases/12.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -259,10 +266,10 @@ const RecentlyViewed = () => {
             Ampus Cosmo De Milancelos Scelerisque
           </p>
           <p className="text-[14px] font-[400] mb-[15px]">$ 500.00</p>
-          <ul className="flex items-center justify-center gap-x-[2px]">
+          <ul className="flex items-center mb-[25px] justify-center gap-x-[2px]">
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/11.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -270,7 +277,7 @@ const RecentlyViewed = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/12.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -278,7 +285,7 @@ const RecentlyViewed = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/13.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -286,7 +293,7 @@ const RecentlyViewed = () => {
             </li>
             <li>
               <Image
-                src="/images/new releases/1.jpg"
+                src="/images/new releases/14.jpg"
                 height={22}
                 width={22}
                 alt="price image"
@@ -301,6 +308,11 @@ const RecentlyViewed = () => {
               </Link>
             </li>
           </ul>
+          <div className="text-[14px] font-[400] mb-[15px] mx-auto bg-[#f8941e] text-[#ffffff] hover:bg-transparent hover:border border-[#f8941e] hover:text-[#f8941e] max-w-[240px] p-[15px]">
+            <Link href="#" className="uppercase font-medium">
+              select options
+            </Link>
+          </div>
         </div>
         {/* </Slider> */}
 

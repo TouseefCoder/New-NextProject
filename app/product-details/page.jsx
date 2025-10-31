@@ -48,7 +48,7 @@ const BlogPage = () => {
     ${isOpen ? "translate-x-0" : "-translate-x-full 2xl:translate-x-0"}`}
             >
               <div className="mb-[45px]">
-                <h1 className="tracking-[.02em] text-[16px] text-[#0f0f0f] font-medium leading-[36px] uppercase">
+                <h1 className="tracking-[.02em] text-[16px] text-[#433b32] font-medium leading-[36px] uppercase">
                   categories
                 </h1>
                 <ul className="list-none">
@@ -128,7 +128,7 @@ const BlogPage = () => {
               </div>
 
               <div className="mb-[95px]">
-                <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] uppercase">
+                <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] uppercase">
                   featured products
                 </h1>
                 <BlogSlider />
@@ -136,7 +136,7 @@ const BlogPage = () => {
               <div className="mb-[45px]">
                 <Link href={"#"} className="block">
                   <Image
-                    src="/images/blog featured/1.jpg"
+                    src="/images/blog featured/9.jpg"
                     alt="blog img"
                     height={700}
                     width={650}
@@ -145,7 +145,7 @@ const BlogPage = () => {
                 </Link>
                 <Link href={"#"} className="block">
                   <Image
-                    src="/images/blog featured/2.jpg"
+                    src="/images/blog featured/10.jpg"
                     alt="blog img"
                     height={700}
                     width={650}
@@ -154,7 +154,7 @@ const BlogPage = () => {
                 </Link>
               </div>
               <div className="">
-                <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] uppercase">
+                <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] uppercase">
                   custom cms blocks
                 </h1>
                 <div className="content mt-[18px]">
@@ -197,7 +197,7 @@ const BlogPage = () => {
                           <div className="flex flex-col gap-[10px] h-[660px] overflow-auto scrollbar-none w-[100px]">
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/2.jpg"
+                                src="/images/new releases/12.jpg"
                                 height={128}
                                 width={100}
                                 alt="blog img"
@@ -206,7 +206,7 @@ const BlogPage = () => {
                             </Link>
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/2.jpg"
+                                src="/images/new releases/13.jpg"
                                 height={128}
                                 width={100}
                                 alt="blog img"
@@ -215,7 +215,7 @@ const BlogPage = () => {
                             </Link>
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/2.jpg"
+                                src="/images/new releases/14.jpg"
                                 height={128}
                                 width={100}
                                 alt="blog img"
@@ -224,7 +224,7 @@ const BlogPage = () => {
                             </Link>
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/2.jpg"
+                                src="/images/new releases/15.jpg"
                                 height={128}
                                 width={100}
                                 alt="blog img"
@@ -233,7 +233,7 @@ const BlogPage = () => {
                             </Link>
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/2.jpg"
+                                src="/images/new releases/13.jpg"
                                 height={128}
                                 width={100}
                                 alt="blog img"
@@ -242,7 +242,7 @@ const BlogPage = () => {
                             </Link>
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/2.jpg"
+                                src="/images/new releases/16.jpg"
                                 height={128}
                                 width={100}
                                 alt="blog img"
@@ -251,7 +251,7 @@ const BlogPage = () => {
                             </Link>
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/2.jpg"
+                                src="/images/new releases/13.jpg"
                                 height={128}
                                 width={100}
                                 alt="blog img"
@@ -260,7 +260,7 @@ const BlogPage = () => {
                             </Link>
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/2.jpg"
+                                src="/images/new releases/20.jpg"
                                 height={128}
                                 width={100}
                                 alt="blog img"
@@ -281,7 +281,7 @@ const BlogPage = () => {
                           <div className="h-full xl:h-[740px]">
                             <Link href={"#"}>
                               <Image
-                                src="/images/new releases/3.jpg"
+                                src="/images/new releases/13.jpg"
                                 height={910}
                                 width={910}
                                 alt="blog img"
@@ -299,7 +299,7 @@ const BlogPage = () => {
                             <div className="mt-[50px] text-center">
                               <button
                                 href={"#"}
-                                className="text-center p-[15px] border-2 border-[#aeaeae] uppercase text-[12px] min-w-[171px] font-medium hover:bg-[#0f0f0f] hover:text-[#ffffff]"
+                                className="text-center p-[15px] border-2 border-[#f8941e] uppercase text-[12px] min-w-[171px] font-medium hover:bg-[#f8941e] text-[#f8941e] hover:text-[#ffffff]"
                               >
                                 ask an expert
                               </button>
@@ -309,6 +309,7 @@ const BlogPage = () => {
                                 <FaGlobeAfrica
                                   fontSize={"51px"}
                                   className="mb-[8px]"
+                                  color="#f8941e"
                                 />
                                 <p className="text-[12px] text-center tracking-[.05em] font-medium uppercase leading-[16px]">
                                   free shipping <br /> worldwide
@@ -318,6 +319,7 @@ const BlogPage = () => {
                                 <FaUndo
                                   fontSize={"51px"}
                                   className="mb-[8px]"
+                                  color="#f8941e"
                                 />
                                 <p className="text-[12px] text-center tracking-[.05em] font-medium uppercase leading-[16px]">
                                   free in-store <br /> returns
@@ -327,6 +329,7 @@ const BlogPage = () => {
                                 <FaShieldHalved
                                   fontSize={"51px"}
                                   className="mb-[8px]"
+                                  color="#f8941e"
                                 />
                                 <p className="text-[12px] text-center tracking-[.05em] font-medium uppercase leading-[16px]">
                                   secure shopping <br /> guarantee
@@ -336,6 +339,7 @@ const BlogPage = () => {
                                 <FaRegCircleCheck
                                   fontSize={"51px"}
                                   className="mb-[8px]"
+                                  color="#f8941e"
                                 />
                                 <p className="text-[12px] text-center tracking-[.05em] font-medium uppercase leading-[16px]">
                                   24 month <br /> warranty
@@ -345,7 +349,7 @@ const BlogPage = () => {
                             {/* <div className="buttons mt-[30px]">
                             <Link
                               href="#"
-                              className="uppercase p-[15px] w-[171px] border-2 border-[#eaeaea] font-medium text-[12px] hover:bg-[#0f0f0f] hover:text-[#ffffff]"
+                              className="uppercase p-[15px] w-[171px] border-2 border-[#eaeaea] font-medium text-[12px] hover:bg-[#433b32] hover:text-[#ffffff]"
                             >
                               ask an expert
                             </Link>
@@ -353,7 +357,7 @@ const BlogPage = () => {
                           <div className="buttons mt-[30px]">
                             <Link
                               href="#"
-                              className="uppercase p-[15px] w-[171px] border-2 border-[#eaeaea] font-medium text-[12px] hover:bg-[#0f0f0f] hover:text-[#ffffff]"
+                              className="uppercase p-[15px] w-[171px] border-2 border-[#eaeaea] font-medium text-[12px] hover:bg-[#433b32] hover:text-[#ffffff]"
                             >
                               ask an expert
                             </Link>
@@ -364,10 +368,15 @@ const BlogPage = () => {
                     </div>
                     <div className="md:w-[50%] relative w-full px-[5px] sm:px-[10px] h-full">
                       <div className="absolute top-[32px] right-0 flex">
-                        <FaChevronLeft strokeWidth={1} fontSize={22} />
+                        <FaChevronLeft
+                          strokeWidth={1}
+                          fontSize={22}
+                          color="#f8941e"
+                        />
                         <FaChevronRight
                           fontSize={22}
                           className="ml-[25px] font-thin"
+                          color="#f8941e"
                         />
                       </div>
                       <p className="text-[12px] leading-[22px] uppercase font-medium mb-[5px]">
@@ -376,8 +385,8 @@ const BlogPage = () => {
                       <h1 className="text-[20px] font-medium hover:underline underline-offset-[3px] leading-[32px] mb-[5px]">
                         Metropolis Daciniad Darturien
                       </h1>
-                      <p className="text-[12px] text-[#dc3545] leading-[22px] flex items-center gap-x-[5px] mb-[15px]">
-                        <FaFire fontSize={18} color={"#b20000"} />
+                      <p className="text-[12px] text-[#f8941e] leading-[22px] flex items-center gap-x-[5px] mb-[15px]">
+                        <FaFire fontSize={18} color={"#dc3545"} />
                         <span>7 sold in last 17 hour</span>
                       </p>
                       <div className="stock mb-[15px] w-full">
@@ -395,7 +404,7 @@ const BlogPage = () => {
                         <span className="text-[20px] line-through font-medium text-[#969696] mr-[15px]">
                           $2,000
                         </span>
-                        <span className="text-[#b20000]">$1,000</span>
+                        <span className="text-[#f8941e]">$1,000</span>
                       </div>
                       <p className="text-[12px] text-[#5f5f5f] mb-[25px]">
                         Nam tempus turpis at metus scelerisque placerat nulla
@@ -411,47 +420,47 @@ const BlogPage = () => {
                           htmlFor=""
                           className="mb-[10px] leading-[20px] text-[12px] font-medium"
                         >
-                          Color <span className="text-[#b20000]">*</span>
+                          Color <span className="text-[#f8941e]">*</span>
                         </label>
                         <div className="images flex items-center flex-wrap mt-[10px]">
                           <div className="w-[38px] h-[38px] mr-[8px] mb-[10px]">
                             <img
-                              src="/images/new releases/1.jpg"
+                              src="/images/new releases/17.jpg"
                               alt="color1"
-                              className="w-full h-full object-cover cursor-pointer border-3 border-[#e3e3e3] rounded-full"
+                              className="w-full h-full object-cover cursor-pointer border-3 border-[#f8941e] rounded-full"
                             />
                           </div>
                           <div className="w-[38px] h-[38px] mr-[8px] mb-[10px]">
                             <img
-                              src="/images/new releases/2.jpg"
-                              alt="color1"
-                              className="w-full h-full object-cover cursor-pointer"
-                            />
-                          </div>
-                          <div className="w-[38px] h-[38px] mr-[8px] mb-[10px]">
-                            <img
-                              src="/images/new releases/3.jpg"
+                              src="/images/new releases/12.jpg"
                               alt="color1"
                               className="w-full h-full object-cover cursor-pointer"
                             />
                           </div>
                           <div className="w-[38px] h-[38px] mr-[8px] mb-[10px]">
                             <img
-                              src="/images/new releases/4.jpg"
+                              src="/images/new releases/13.jpg"
                               alt="color1"
                               className="w-full h-full object-cover cursor-pointer"
                             />
                           </div>
                           <div className="w-[38px] h-[38px] mr-[8px] mb-[10px]">
                             <img
-                              src="/images/new releases/5.jpg"
+                              src="/images/new releases/14.jpg"
                               alt="color1"
                               className="w-full h-full object-cover cursor-pointer"
                             />
                           </div>
                           <div className="w-[38px] h-[38px] mr-[8px] mb-[10px]">
                             <img
-                              src="/images/new releases/6.jpg"
+                              src="/images/new releases/15.jpg"
+                              alt="color1"
+                              className="w-full h-full object-cover cursor-pointer"
+                            />
+                          </div>
+                          <div className="w-[38px] h-[38px] mr-[8px] mb-[10px]">
+                            <img
+                              src="/images/new releases/16.jpg"
                               alt="color1"
                               className="w-full h-full object-cover cursor-pointer"
                             />
@@ -465,14 +474,14 @@ const BlogPage = () => {
                         >
                           Quantity:
                         </label>
-                        <div className="quantities h-[42px] flex items-center mt-[10px] border border-[#cbcbcb] max-w-[154px] w-full">
-                          <div className="h-full flex items-center cursor-pointer justify-center border-r border-[#cbcbcb] font-medium text-[#7b7b7b] w-[42px]">
+                        <div className="quantities h-[42px] flex items-center mt-[10px] border border-[#f8941e] max-w-[154px] w-full">
+                          <div className="h-full flex items-center cursor-pointer justify-center border-r border-[#f8941e] font-medium text-[#f8941e] w-[42px]">
                             <FaMinus fontSize={13} className="h-full" />
                           </div>
                           <div className="w-full h-full text-center content-center text-[#7b7b7b] max-w-[70px] mt-[10px]">
                             1
                           </div>
-                          <div className="h-full flex items-center cursor-pointer justify-center w-[42px] text-[#7b7b7b] border-l border-[#cbcbcb] font-medium ">
+                          <div className="h-full flex items-center cursor-pointer justify-center w-[42px] text-[#f8941e] border-l border-[#f8941e] font-medium ">
                             <FaPlus fontSize={13} className="h-full" />
                           </div>
                         </div>
@@ -483,7 +492,7 @@ const BlogPage = () => {
                         </span>{" "}
                         <span className="font-medium">$499.00</span>
                       </div>
-                      <button className="w-full uppercase text-[12px] bg-black border border-black text-white px-[15px] py-[10px] font-medium hover:bg-[#333333] leading-[22px] mb-[20px]">
+                      <button className="w-full uppercase text-[12px] bg-[#f8941e] hover:border border-[#f8941e] text-white hover:text-[#f8941e] px-[15px] py-[10px] font-medium hover:bg-transparent leading-[22px] mb-[20px]">
                         Add to cart
                       </button>
                       <div className="terms flex items-center mb-[15px]">
@@ -494,12 +503,12 @@ const BlogPage = () => {
                         />
                         <label
                           htmlFor="terms"
-                          className="text-[12px] text-[#0f0f0f] leading-[22px] mb-[9px]"
+                          className="text-[12px] text-[#433b32] leading-[22px] mb-[9px]"
                         >
                           I agree with the terms and conditions
                         </label>
                       </div>
-                      <button className="w-full uppercase text-[12px] hover:bg-black text-[#5f5f5f] hover:text-white bg-transparent border border-[#5f5f5f] px-[15px] py-[10px] font-medium  leading-[22px] mb-[24px]">
+                      <button className="w-full uppercase text-[12px] hover:bg-[#f8941e] text-[#f8941e] hover:text-white bg-transparent border border-[#f8941e] px-[15px] py-[10px] font-medium  leading-[22px] mb-[24px]">
                         buy it now
                       </button>
                       <div className="button-group flex gap-x-[30px]">
@@ -519,7 +528,7 @@ const BlogPage = () => {
                         </Link>
                       </div>
                       <div className="viewing mb-[15px]">
-                        <p className="text-[12px] text-[#0f0f0f] leading-[22px]">
+                        <p className="text-[12px] text-[#433b32] leading-[22px]">
                           112 customers are viewing this product
                         </p>
                       </div>
@@ -584,11 +593,11 @@ const BlogPage = () => {
                       <li className="relative py-[12px] pr-[42px] pl-[28px]">
                         <Link
                           href={"#"}
-                          className="uppercase font-medium underline underline-offset-4 tracking-[.02em]"
+                          className="uppercase text-[#f8941e] font-medium underline underline-offset-4 tracking-[.02em]"
                         >
                           description
                         </Link>
-                        <span className="absolute right-0 top-1/2 transform -translate-y-1/2 text-[12px] text-[#5f5f5f]">
+                        <span className="absolute text-[#f8941e] right-0 top-1/2 transform -translate-y-1/2 text-[12px] text-[#5f5f5f]">
                           /
                         </span>
                       </li>
@@ -599,7 +608,7 @@ const BlogPage = () => {
                         >
                           customer reviews
                         </Link>
-                        <span className="absolute right-0 top-1/2 transform -translate-y-1/2 text-[12px] text-[#5f5f5f]">
+                        <span className="absolute text-[#f8941e] right-0 top-1/2 transform -translate-y-1/2 text-[12px] text-[#5f5f5f]">
                           /
                         </span>
                       </li>
@@ -626,48 +635,48 @@ const BlogPage = () => {
                     </p>
                     <table className="w-full max-w-full mb-[1rem]">
                       <tbody>
-                        <tr className="border-b-1 border-[#eaeaea]">
-                          <td className="w-[50%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                        <tr className="border-b-1 border-[#ffe9d0]">
+                          <td className="w-[50%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                             defficitur
                           </td>
                           <td className="w-[65%] p-[9px] leading-[22px] text-[12px] text-[#5f5f5f]">
                             Comodous de milance
                           </td>
                         </tr>
-                        <tr className="border-b-1 border-[#eaeaea]">
-                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                        <tr className="border-b-1 border-[#ffe9d0]">
+                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                             Selementum
                           </td>
                           <td className="w-[65%] p-[9px] leading-[22px] text-[12px] text-[#5f5f5f]">
                             Pellentesque de neque mollis
                           </td>
                         </tr>
-                        <tr className="border-b-1 border-[#eaeaea]">
-                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                        <tr className="border-b-1 border-[#ffe9d0]">
+                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                             Montes
                           </td>
                           <td className="w-[65%] p-[9px] leading-[22px] text-[12px] text-[#5f5f5f]">
                             Divamus
                           </td>
                         </tr>
-                        <tr className="border-b-1 border-[#eaeaea]">
-                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                        <tr className="border-b-1 border-[#ffe9d0]">
+                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                             Fermentum
                           </td>
                           <td className="w-[65%] p-[9px] leading-[22px] text-[12px] text-[#5f5f5f]">
                             Risus posuere loremous
                           </td>
                         </tr>
-                        <tr className="border-b-1 border-[#eaeaea]">
-                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                        <tr className="border-b-1 border-[#ffe9d0]">
+                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                             Pellenatesque
                           </td>
                           <td className="w-[65%] p-[9px] leading-[22px] text-[12px] text-[#5f5f5f]">
                             Comodous in tempor dullamcorper
                           </td>
                         </tr>
-                        <tr className="border-b-1 border-[#eaeaea]">
-                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                        <tr className="border-b-1 border-[#ffe9d0]">
+                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                             Diaculis
                           </td>
                           <td className="w-[65%] p-[9px] leading-[22px] text-[12px] text-[#5f5f5f]">
@@ -675,7 +684,7 @@ const BlogPage = () => {
                           </td>
                         </tr>
                         <tr className="">
-                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                          <td className="w-[35%] py-[9px] pr-[9px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                             Sollicitudino
                           </td>
                           <td className="w-[65%] p-[9px] leading-[22px] text-[12px] text-[#5f5f5f]">
@@ -689,7 +698,7 @@ const BlogPage = () => {
                     <table className="w-full">
                       <tbody>
                         <tr className="relative border-t border-[#ccc]">
-                          <td className="w-full py-[15px] pr-[30px] leading-[22px] text-[16px] text-[#0f0f0f] font-medium uppercase">
+                          <td className="w-full py-[15px] pr-[30px] leading-[22px] text-[16px] text-[#433b32] font-medium uppercase">
                             description
                           </td>
                           <td>
@@ -697,7 +706,7 @@ const BlogPage = () => {
                           </td>
                         </tr>
                         <tr className="relative border-t border-[#ccc]">
-                          <td className="w-full py-[15px] pr-[30px] leading-[22px] text-[16px] text-[#0f0f0f] font-medium uppercase">
+                          <td className="w-full py-[15px] pr-[30px] leading-[22px] text-[16px] text-[#433b32] font-medium uppercase">
                             customer reviews
                           </td>
                           <td>
@@ -705,7 +714,7 @@ const BlogPage = () => {
                           </td>
                         </tr>
                         <tr className="relative border-t border-[#ccc]">
-                          <td className="w-full py-[15px] pr-[30px] leading-[22px] text-[16px] text-[#0f0f0f] font-medium uppercase">
+                          <td className="w-full py-[15px] pr-[30px] leading-[22px] text-[16px] text-[#433b32] font-medium uppercase">
                             shipping + returns
                           </td>
                           <td>
@@ -720,7 +729,7 @@ const BlogPage = () => {
                   <div className="container w-full flex flex-col md:flex-row mx-auto">
                     <div className="w-full md:w-1/2 px-[15px]">
                       <Image
-                        src="/images/new releases/1.jpg"
+                        src="/images/new releases/15.jpg"
                         height={800}
                         width={620}
                         alt="custom task"
@@ -728,18 +737,18 @@ const BlogPage = () => {
                       />
                     </div>
                     <div className="w-full md:w-1/2 px-[15px] pb-[30px]">
-                      <h1 className="mb-[30px] pt-[52px] text-[24px] font-medium uppercase text-[#0f0f0f] tracking-[.02em] leading-[32px] text-center">
+                      <h1 className="mb-[30px] pt-[52px] text-[24px] font-medium uppercase text-[#433b32] tracking-[.02em] leading-[32px] text-center">
                         custom text
                       </h1>
                       <div className="tabs mb-[25px] w-full flex gap-[20px]">
                         <Link
-                          className="px-[15px] py-[14px] w-1/2 bg-[#0f0f0f] text-white text-center tracking-[.02em] uppercase font-medium border-2 border-[#0f0f0f]"
+                          className="px-[15px] py-[14px] w-1/2 bg-[#f8941e] hover:bg-white text-white hover:text-[#f8941e] text-center tracking-[.02em] uppercase font-medium hover:border-2 border-[#f8941e]"
                           href={"#"}
                         >
                           the spaces
                         </Link>
                         <Link
-                          className="px-[15px] py-[14px] w-1/2 text-[#0f0f0f] text-center tracking-[.02em] uppercase font-medium border-2 border-[#eaeaea] bg-[#fff]"
+                          className="px-[15px] py-[14px] w-1/2 text-[#f8941e] hover:text-white text-center tracking-[.02em] uppercase font-medium border-2 border-[#f8941e] bg-[#fff] hover:bg-[#f8941e]"
                           href={"#"}
                         >
                           size
@@ -759,48 +768,48 @@ const BlogPage = () => {
                         </p>
                         <table className="w-full max-w-full mb-[1rem] mt-[7px]">
                           <tbody>
-                            <tr className="border-b-1 border-[#eaeaea]">
-                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                            <tr className="border-b-1 border-[#ffe9d0]">
+                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                                 defficitur
                               </td>
                               <td className="w-[50%] text-end py-[16px] pl-[15px] leading-[22px] text-[12px] text-[#5f5f5f]">
                                 Comodous de milance
                               </td>
                             </tr>
-                            <tr className="border-b-1 border-[#eaeaea]">
-                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                            <tr className="border-b-1 border-[#ffe9d0]">
+                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                                 Selementum
                               </td>
                               <td className="w-[50%] text-end py-[16px] pl-[15px] leading-[22px] text-[12px] text-[#5f5f5f]">
                                 Pellentesque de neque mollis
                               </td>
                             </tr>
-                            <tr className="border-b-1 border-[#eaeaea]">
-                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                            <tr className="border-b-1 border-[#ffe9d0]">
+                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                                 Montes
                               </td>
                               <td className="w-[50%] text-end py-[16px] pl-[15px] leading-[22px] text-[12px] text-[#5f5f5f]">
                                 Divamus
                               </td>
                             </tr>
-                            <tr className="border-b-1 border-[#eaeaea]">
-                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                            <tr className="border-b-1 border-[#ffe9d0]">
+                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                                 Fermentum
                               </td>
                               <td className="w-[50%] text-end py-[16px] pl-[15px] leading-[22px] text-[12px] text-[#5f5f5f]">
                                 Risus posuere loremous
                               </td>
                             </tr>
-                            <tr className="border-b-1 border-[#eaeaea]">
-                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                            <tr className="border-b-1 border-[#ffe9d0]">
+                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                                 Pellenatesque
                               </td>
                               <td className="w-[50%] text-end py-[16px] pl-[15px] leading-[22px] text-[12px] text-[#5f5f5f]">
                                 Comodous in tempor dullamcorper
                               </td>
                             </tr>
-                            <tr className="border-b-1 border-[#eaeaea]">
-                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                            <tr className="border-b-1 border-[#ffe9d0]">
+                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                                 Diaculis
                               </td>
                               <td className="w-[50%] text-end py-[16px] pl-[15px] leading-[22px] text-[12px] text-[#5f5f5f]">
@@ -808,7 +817,7 @@ const BlogPage = () => {
                               </td>
                             </tr>
                             <tr className="">
-                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#0f0f0f] font-medium uppercase">
+                              <td className="w-[50%] py-[16px] pr-[15px] leading-[22px] text-[12px] text-[#433b32] font-medium uppercase">
                                 Sollicitudino
                               </td>
                               <td className="w-[50%] text-end py-[16px] pl-[15px] leading-[22px] text-[12px] text-[#5f5f5f]">
@@ -824,7 +833,7 @@ const BlogPage = () => {
                 <div className="flex flex-col gap-[10px]">
                   <div className="relative w-full ">
                     <Image
-                      src="/images/hero-slider/slider1.jpg"
+                      src="/images/hero-slider/slider5.jpg"
                       alt="Slide 1"
                       height={700}
                       width={1920}
@@ -845,7 +854,7 @@ const BlogPage = () => {
                   <div className="flex w-full flex-col md:flex-row gap-[10px] mb-[60px]">
                     <div className="relative md:w-[50%] w-full">
                       <Image
-                        src="/images/new collections/3.jpg"
+                        src="/images/new collections/6.jpg"
                         alt="Slide 1"
                         height={770}
                         width={664}
@@ -865,7 +874,7 @@ const BlogPage = () => {
                     </div>
                     <div className="relative md:w-[50%] w-full">
                       <Image
-                        src="/images/new collections/1.jpg"
+                        src="/images/new collections/8.jpg"
                         alt="Slide 1"
                         height={770}
                         width={664}
@@ -895,8 +904,8 @@ const BlogPage = () => {
           <Link href="#" className="text-center text-[#5a5a5a] text-[12px]">
             Home
           </Link>
-          <FaAngleRight className="text-[#5a5a5a] text-[12px]" />
-          <Link href="#" className="text-center text-[#5a5a5a] text-[12px]">
+          <FaAngleRight className="text-[#f8942e] text-[12px]" />
+          <Link href="#" className="text-center text-[#f8941e] text-[12px]">
             Blog
           </Link>
         </div>

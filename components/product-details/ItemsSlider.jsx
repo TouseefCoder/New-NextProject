@@ -103,7 +103,7 @@ const ItemsSlider = () => {
       <Slider {...settings} className={styles.sliderContainer}>
         <div className="relative h-auto text-center text-[#232323]">
           <Image
-            src="/images/new releases/1.jpg"
+            src="/images/new releases/11.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -112,7 +112,7 @@ const ItemsSlider = () => {
         </div>
         <div className="relative h-auto text-center text-[#232323]">
           <Image
-            src="/images/new releases/2.jpg"
+            src="/images/new releases/12.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -121,7 +121,7 @@ const ItemsSlider = () => {
         </div>
         <div className="relative h-auto text-center text-[#232323]">
           <Image
-            src="/images/new releases/3.jpg"
+            src="/images/new releases/13.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -130,7 +130,7 @@ const ItemsSlider = () => {
         </div>
         <div className="relative h-auto text-center text-[#232323]">
           <Image
-            src="/images/new releases/4.jpg"
+            src="/images/new releases/14.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -139,7 +139,7 @@ const ItemsSlider = () => {
         </div>
         <div className="relative h-auto text-center text-[#232323]">
           <Image
-            src="/images/new releases/5.jpg"
+            src="/images/new releases/15.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -148,7 +148,7 @@ const ItemsSlider = () => {
         </div>
         <div className="relative h-auto text-center text-[#232323]">
           <Image
-            src="/images/new releases/6.jpg"
+            src="/images/new releases/16.jpg"
             alt="image 1"
             height={500}
             width={500}
@@ -157,7 +157,7 @@ const ItemsSlider = () => {
         </div>
         <div className="relative h-auto text-center text-[#232323]">
           <Image
-            src="/images/new releases/7.jpg"
+            src="/images/new releases/17.jpg"
             alt="image 1"
             height={500}
             width={500}

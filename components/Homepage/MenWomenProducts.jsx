@@ -9,7 +9,7 @@ const MenWomenProducts = () => {
       <div className="flex justify-between flex-col sm:flex-row items-center gap-x-[30px]">
         <div className="w-[100%] h-auto sm:w-[50%] mb-[20px] overflow-hidden relative">
           <Image
-            src="/images/menwomen/1.jpg"
+            src="/images/menwomen/3.png"
             alt="women"
             height={669}
             width={644}
@@ -22,7 +22,7 @@ const MenWomenProducts = () => {
             <div>
               <Link
                 href="#"
-                className="uppercase pt-[12px] tracking-[.05rem] pb-[11px] pl-[50px] pr-[49px] border border-[#fff] text-[14px] font-medium"
+                className="uppercase pt-[12px] tracking-[.05rem] pb-[11px] pl-[50px] pr-[49px] hover:border border-[#f8941e] hover:text-[#f8941e] text-[#fff] bg-[#f8941e] hover:bg-transparent text-[14px] font-medium"
               >
                 show now
               </Link>
@@ -31,20 +31,20 @@ const MenWomenProducts = () => {
         </div>
         <div className="w-[100%] h-auto sm:w-[50%] mb-[20px] overflow-hidden relative">
           <Image
-            src="/images/menwomen/2.jpg"
+            src="/images/menwomen/4.avif"
             alt="women"
             height={669}
             width={644}
             className="w-full h-full object-covertransition-transform duration-500 hover:scale-110"
           />
-          <div className="absolute top-0 left-0 h-auto w-full p-[70px] text-[#fff]">
-            <h1 className="uppercase  mb-[40px] text-right tracking-[.05rem] text-[30px] font-medium">
+          <div className="absolute top-0 left-0 h-auto w-full p-[70px] text-[#f8941e]">
+            <h1 className="uppercase  mb-[40px] text-right tracking-[.05rem] text-[#fff] text-[30px] font-medium">
               mens watches
             </h1>
             <div className="text-right">
               <Link
                 href="#"
-                className="uppercase pt-[12px] tracking-[.05rem] pb-[11px] pl-[50px] pr-[49px] border border-[#fff] text-[14px] font-medium"
+                className="uppercase pt-[12px] tracking-[.05rem] pb-[11px] pl-[50px] pr-[49px] hover:border border-[#f8941e] hover:text-[#f8941e] text-[#fff] bg-[#f8941e] hover:bg-transparent text-[14px] font-medium"
               >
                 show now
               </Link>

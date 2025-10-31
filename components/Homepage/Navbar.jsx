@@ -37,10 +37,10 @@ const Navbar = () => {
     <>
       <div
         id="topNav"
-        className={`flex flex-col fixed top-0 z-50 border-box w-full items-center justify-center text-[#ffffff] bg-[#0f0f0f] xl:bg-${
+        className={`flex flex-col fixed top-0 z-50 border-box w-full items-center justify-center text-[#ffffff] bg-[#433b32] xl:bg-${
           scrolled
-            ? "bg-[#0f0f0f] xl:bg-[#0f0f0f]"
-            : "bg-[#0f0f0f] xl:bg-transparent"
+            ? "bg-[#433b32] xl:bg-[#433b32]"
+            : "bg-[#433b32] xl:bg-transparent"
         }
         `}
       >
@@ -64,7 +64,7 @@ const Navbar = () => {
               <ul className="hidden xl:flex justify-start items-center w-full h-full gap-x-[10px] text-[15px] font-medium">
                 <li>
                   <Link
-                    className={`gap-x-[5px] text-[12px] text-[#ffffff] tracking-widest flex items-center gap-1`}
+                    className={`gap-x-[5px] text-[12px] text-[#ffffff] hover:text-[#f8941e] tracking-widest flex items-center gap-1`}
                     href="/"
                   >
                     <MdOutlinePhone size={12} />
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className={`gap-x-[10px] text-[12px] text-[#ffffff] tracking-widest flex items-center gap-1`}
+                    className={`gap-x-[10px] text-[12px] text-[#ffffff] hover:text-[#f8941e] tracking-widest flex items-center gap-1`}
                     href="/"
                   >
                     <CiMail size={12} />
@@ -87,7 +87,7 @@ const Navbar = () => {
               <li>
                 <Link
                   onClick={() => setNavLeft(!navLeft)}
-                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-[#ffffff] tracking-widest flex items-center gap-1`}
+                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-[#ffffff] hover:text-[#f8941e] tracking-widest flex items-center gap-1`}
                   href="#"
                 >
                   <VscMenu size={28} />
@@ -95,10 +95,10 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-[#ffffff] tracking-widest flex items-center gap-1`}
+                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-[#ffffff] hover:text-[#f8941e] tracking-widest flex items-center gap-1`}
                   href="/"
                 >
-                  <CiSearch className=" text-[#ffffff] w-[22px] h-[22px]" />
+                  <CiSearch className=" text-[#ffffff] hover:text-[#f8941e] w-[22px] h-[22px]" />
                 </Link>
               </li>
             </ul>
@@ -132,7 +132,7 @@ const Navbar = () => {
                 <ul className="hidden xl:flex justify-center items-center flex-wrap w-full gap-x-10 gap-y-[10px] text-[15px] font-medium">
                   <li className="">
                     <Link
-                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
+                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest`}
                       href="/product-details"
                     >
                       New Releases
@@ -141,7 +141,7 @@ const Navbar = () => {
 
                   <li>
                     <Link
-                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
+                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest`}
                       href={"/men"}
                     >
                       mens
@@ -150,7 +150,7 @@ const Navbar = () => {
 
                   <li>
                     <Link
-                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
+                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest`}
                       href={"/women"}
                     >
                       womens
@@ -159,7 +159,7 @@ const Navbar = () => {
 
                   <li>
                     <Link
-                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
+                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest`}
                       href="/men"
                     >
                       Jewelery
@@ -168,7 +168,7 @@ const Navbar = () => {
 
                   <li>
                     <Link
-                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
+                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest`}
                       href="/men"
                     >
                       accessories
@@ -177,7 +177,7 @@ const Navbar = () => {
 
                   <li>
                     <Link
-                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
+                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest`}
                       href="/blog"
                     >
                       blog
@@ -186,7 +186,7 @@ const Navbar = () => {
 
                   <li>
                     <Link
-                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
+                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest`}
                       href="/"
                     >
                       demo
@@ -195,7 +195,7 @@ const Navbar = () => {
 
                   <li>
                     <Link
-                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest`}
+                      className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest`}
                       href="/"
                     >
                       my theme
@@ -209,7 +209,7 @@ const Navbar = () => {
             <ul className="flex justify-end items-center w-full h-full gap-6 text-[15px] font-medium">
               <li>
                 <Link
-                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest flex items-center gap-1`}
+                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest flex items-center gap-1`}
                   href="/"
                 >
                   <span className="hidden xl:flex">account</span>
@@ -219,7 +219,7 @@ const Navbar = () => {
               <li className="relative">
                 <Link
                   onClick={() => setCartOpen(!cartOpen)}
-                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest flex items-center gap-1`}
+                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest flex items-center gap-1`}
                   href="#"
                 >
                   <span className="hidden xl:flex">cart</span>
@@ -232,11 +232,11 @@ const Navbar = () => {
               <li className="hidden xl:flex w-[0.5px] h-[20px] border border-l-[#000] border-dotted"></li>
               <li className="hidden xl:flex ">
                 <Link
-                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-[#0f0f0f] tracking-widest flex items-center gap-1`}
+                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-[#0f0f0f] hover:text-[#f8941e] tracking-widest flex items-center gap-1`}
                   href="/"
                 >
                   <CiSearch
-                    className="text-white w-[18px] h-[17px]"
+                    className="text-white hover:text-[#f8941e] w-[18px] h-[17px]"
                     strokeWidth={2}
                   />
                 </Link>
@@ -244,7 +244,7 @@ const Navbar = () => {
               <li className="hidden xl:flex ">
                 <Link
                   onClick={() => setRightNav(!rightNav)}
-                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white tracking-widest flex items-center gap-1`}
+                  className={`${poppins.variable} ${poppins.className} font-medium uppercase text-[12px] text-white hover:text-[#f8941e] tracking-widest flex items-center gap-1`}
                   href="#"
                 >
                   <VscMenu size={28} />
@@ -258,7 +258,7 @@ const Navbar = () => {
             <ul className="hidden lg:flex justify-center items-center flex-wrap w-full gap-x-10 gap-y-[10px] text-[15px] font-medium">
               <li className="">
                 <Link
-                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest hover:text-[#f8941e]`}
                   href="/product-details"
                 >
                   New Releases
@@ -267,7 +267,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest hover:text-[#f8941e]`}
                   href="/men"
                 >
                   mens
@@ -276,7 +276,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest hover:text-[#f8941e]`}
                   href="/men"
                 >
                   womens
@@ -285,7 +285,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest hover:text-[#f8941e]`}
                   href="/men"
                 >
                   Jewelery
@@ -294,7 +294,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest hover:text-[#f8941e]`}
                   href="/"
                 >
                   accessories
@@ -303,7 +303,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest hover:text-[#f8941e]`}
                   href="/blog"
                 >
                   blog
@@ -312,7 +312,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest hover:text-[#f8941e]`}
                   href="/"
                 >
                   demo
@@ -321,7 +321,7 @@ const Navbar = () => {
 
               <li>
                 <Link
-                  className={`font-medium uppercase text-[12px] text-white tracking-widest`}
+                  className={`font-medium uppercase text-[12px] text-white tracking-widest hover:text-[#f8941e]`}
                   href="/"
                 >
                   my theme

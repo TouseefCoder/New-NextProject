@@ -54,7 +54,7 @@ export default function MyCarousel() {
     };
   }, []);
   const settings = {
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 3000,
     adaptiveHeight: true,
     dots: true,
@@ -74,7 +74,6 @@ export default function MyCarousel() {
           left: "50%",
           transform: "translateX(-50%)",
         }}
-        // className="absolute left-1/2 transform translate-X-1/2 translate-y-1/2 bottom-0"
       >
         <ul className=" flex justify-center space-x-2 m-0 p-0" style={{}}>
           {dots}
@@ -98,10 +97,11 @@ export default function MyCarousel() {
         <Slider {...settings} className="bg-transparent sm:bg-[#f4f4f4]">
           <div className="mb-0 pb-0">
             <Image
-              src="/images/hero-slider/slider1.jpg"
+              src="/images/hero-slider/slider4.jpeg"
               alt="Slide 1"
               height={710}
               width={1920}
+              className="w-full h-full object-cover"
             />
             <h3 className="text-[24px] block sm:hidden absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:text-[40px] font-medium text-center mb-[10px] uppercase text-[#ffffff]">
               cosmopolis
@@ -115,7 +115,7 @@ export default function MyCarousel() {
                 condimentum de cosmo lacus meleifend blanditios.
               </p>
               <div className="w-full flex justify-center">
-                <button className="w-[240px] text-center h-[40px] mb-[25px] text-[14px] cursor-pointer hover:bg-[#000000] bg-[#000000] sm:bg-transparent text-white font-[500] border border-white uppercase">
+                <button className="w-[240px] text-center h-[40px] mb-[25px] text-[14px] cursor-pointer hover:bg-[#cf7711] bg-[#f8941e] text-white font-[500] uppercase">
                   shop this collection
                 </button>
               </div>
@@ -123,7 +123,7 @@ export default function MyCarousel() {
           </div>
           <div className="">
             <Image
-              src="/images/hero-slider/slider2.jpg"
+              src="/images/hero-slider/slider5.jpg"
               alt="Slide 1"
               height={700}
               width={1920}
@@ -141,7 +141,7 @@ export default function MyCarousel() {
                 condimentum de cosmo lacus meleifend blanditios.
               </p>
               <div className="w-full flex justify-center">
-                <button className="w-[240px] text-center h-[40px] text-[14px] cursor-pointer hover:bg-[#000000] bg-[#000000] sm:bg-transparent text-white font-[500] border border-white uppercase">
+                <button className="w-[240px] text-center h-[40px] mb-[25px] text-[14px] cursor-pointer hover:bg-[#cf7711] bg-[#f8941e] text-white font-[500] uppercase">
                   shop this collection
                 </button>
               </div>
@@ -149,7 +149,7 @@ export default function MyCarousel() {
           </div>
           <div className="">
             <Image
-              src="/images/hero-slider/slider3.jpg"
+              src="/images/hero-slider/slider6.jpeg"
               alt="Slide 3"
               height={600}
               width={1920}
@@ -167,19 +167,19 @@ export default function MyCarousel() {
                 condimentum de cosmo lacus meleifend blanditios.
               </p>
               <div className="w-full flex mb-[25px] lg:mb-[30px] justify-center">
-                <div className="w-[80px] lg:w-[full] h-full border border-[#000000] text-[#000000] sm:border-white sm:text-white flex flex-col p-[15px] justify-center items-center">
+                <div className="w-[80px] lg:w-[full] h-full border border-[#f8941e] text-[#f8941e] flex flex-col p-[15px] justify-center items-center">
                   <h1 className="text-[20px] lg:text-[30px] font-medium">00</h1>
                   <p className="uppercase text-[12px] font-medium">days</p>
                 </div>
-                <div className="w-[80px] lg:w-[full] h-full border border-[#000000] text-[#000000] sm:border-white sm:text-white flex flex-col p-[15px] justify-center items-center">
+                <div className="w-[80px] lg:w-[full] h-full border border-[#f8941e] text-[#f8941e] flex flex-col p-[15px] justify-center items-center">
                   <h1 className="text-[20px] lg:text-[30px] font-medium">00</h1>
                   <p className="uppercase text-[12px] font-medium">mins</p>
                 </div>
-                <div className="w-[80px] lg:w-[full] h-full border border-[#000000] text-[#000000] sm:border-white sm:text-white flex flex-col p-[15px] justify-center items-center">
+                <div className="w-[80px] lg:w-[full] h-full border border-[#f8941e] text-[#f8941e] flex flex-col p-[15px] justify-center items-center">
                   <h1 className="text-[20px] lg:text-[30px] font-medium">00</h1>
                   <p className="uppercase text-[12px] font-medium">secs</p>
                 </div>
-                <div className="w-[80px] lg:w-[full] h-full border border-[#000000] text-[#000000] sm:border-white sm:text-white flex flex-col p-[15px] justify-center items-center">
+                <div className="w-[80px] lg:w-[full] h-full border border-[#f8941e] text-[#f8941e] flex flex-col p-[15px] justify-center items-center">
                   <h1 className="text-[20px] lg:text-[30px] font-medium">00</h1>
                   <p className="uppercase text-[12px] font-medium">secs</p>
                 </div>
@@ -187,13 +187,13 @@ export default function MyCarousel() {
               <div className="w-full flex justify-between items-center gap-x-[30px]">
                 <Link
                   href="#"
-                  className="w-full transition-all duration-300 ease-in-out text-[14px] font-medium text-[#000] text-center  bg-white sm:border-none border border-[#000] hover:text-white hover:bg-[#000] uppercase px-[15px] py-[8px]"
+                  className="w-full transition-all duration-300 ease-in-out text-[14px] font-medium text-center bg-[#f8941e]  text-white hover:bg-[#cf7711] uppercase px-[15px] py-[8px]"
                 >
                   shop mens
                 </Link>
                 <Link
                   href="#"
-                  className="w-full transition-all duration-300 ease-in-out text-[14px] font-medium text-[#000] text-center bg-white sm:border-none border border-[#000]hover:text-white hover:bg-[#000] uppercase px-[15px] py-[8px]"
+                  className="w-full transition-all duration-300 ease-in-out text-[14px] font-medium text-center bg-[#f8941e]  text-white hover:bg-[#cf7711] uppercase px-[15px] py-[8px]"
                 >
                   shop womens
                 </Link>

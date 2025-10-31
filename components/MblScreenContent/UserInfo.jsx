@@ -20,12 +20,12 @@ const UserContent = () => {
               className="text-center uppercase text-[12px] flex items-center gap-x-1 cursor-pointer"
               onClick={() => setUser(!user)}
             >
-              <FaXmark fontSize={17} />
+              <FaXmark fontSize={17} color="#f8941e" />
               close
             </button>
           </div>
 
-          <h6 className="text-[13px] font-semibold border-b border-[#c5c2c2] tracking-[.05em] pb-[17px] block mt-[30px] uppercase text-[#000]">
+          <h6 className="text-[13px] font-semibold border-b border-[#ffe9d0] tracking-[.05em] pb-[17px] block mt-[30px] uppercase text-[#000]">
             customer login:
           </h6>
         </div>
@@ -39,7 +39,7 @@ const UserContent = () => {
             </label>
             <input
               type="email"
-              className="w-full py-[7px] px-[15px] bg-transparent border border-gray-400 text-[#5f5f5f] text-[14px] text-center"
+              className="w-full py-[7px] px-[15px] bg-transparent border border-[#ffe9d0] text-[#5f5f5f] text-[14px] text-center"
               name="email"
               placeholder="Email address"
             />
@@ -53,13 +53,13 @@ const UserContent = () => {
             </label>
             <input
               type="password"
-              className="w-full py-[7px] px-[15px] bg-transparent border border-gray-400 text-[#5f5f5f] text-[14px] text-center"
+              className="w-full py-[7px] px-[15px] bg-transparent border border-[#ffe9d0] text-[#5f5f5f] text-[14px] text-center"
               name="password"
               placeholder="Password"
             />
           </div>
           <div className="action-btn mb-[20px]">
-            <button className="text-center mb-[15px] uppercase w-full border text-[#000] font-medium py-[7px] text-[14px] transform transition-all duration-300 px-[15px] hover:bg-[#000] hover:text-[#fff]">
+            <button className="text-center mb-[15px] uppercase w-full border text-[#f8941e] font-medium py-[7px] text-[14px] transform transition-all duration-300 px-[15px] hover:bg-[#f8941e] hover:text-[#fff]">
               login
             </button>
             <div className="text-center w-full">
@@ -68,7 +68,7 @@ const UserContent = () => {
               </Link>
             </div>
           </div>
-          <div className="text-center w-full px-[15px] text-[#fff] py-[7px] bg-[#000] hover:bg-transparent hover:text-[#000] border border-black transform transition-all duration-300">
+          <div className="text-center w-full px-[15px] text-[#fff] py-[7px] bg-[#f8941e] hover:bg-transparent hover:text-[#f8941e] border border-[#f8931e] transform transition-all duration-300">
             <Link href="#" className="text-[14px] uppercase  font-medium">
               Create an account
             </Link>

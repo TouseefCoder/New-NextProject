@@ -21,7 +21,7 @@ const CartContent = () => {
               className="text-center uppercase text-[12px] flex items-center gap-x-1 cursor-pointer"
               onClick={() => setCartOpen(!cartOpen)}
             >
-              <FaXmark fontSize={17} />
+              <FaXmark fontSize={17} color="#f8941e" />
               close
             </button>
           </div>
@@ -32,7 +32,7 @@ const CartContent = () => {
           <p className="my-[20px] text-center text-[12px] text-[#727272]">
             Your cart is currently empty
           </p>
-          <button className="text-center mb-[20px] uppercase w-full border text-[#000] font-medium py-[7px] text-[14px] transform transition-all duration-300 px-[15px] hover:bg-[#000] hover:text-[#fff]">
+          <button className="text-center mb-[20px] uppercase w-full border text-[#f8941e] font-medium py-[7px] text-[14px] transform transition-all duration-300 px-[15px] hover:bg-[#f8941e] hover:text-[#fff]">
             continue shopping
           </button>
         </div>

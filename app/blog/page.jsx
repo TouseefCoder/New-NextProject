@@ -16,58 +16,10 @@ const BlogPage = () => {
   return (
     <>
       <Navbar />
-      {/* <div className="relative">
-        <div
-          onClick={() => setIsOpen(false)}
-          className={`fixed inset-0 bg-black/50 transition-opacity duration-300 ${
-            isOpen ? "opacity-100 visible" : "opacity-0 invisible"
-          }`}
-        ></div>
 
-        <div
-          className={`fixed top-0 left-0 h-full lg:static w-64 bg-white shadow-xl z-50 transform transition-transform duration-300
-    ${isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}
-  `}
-        >
-          <div className="flex justify-between items-center p-4 border-b">
-            <h2 className="text-lg font-bold">Menu</h2>
-            <button
-              onClick={() => setIsOpen(false)}
-              className="text-gray-500 hover:text-gray-700"
-            >
-              ✕
-            </button>
-          </div>
-
-          <ul className="p-4 space-y-3">
-            <li>
-              <a href="#" className="block hover:text-blue-600">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-blue-600">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="block hover:text-blue-600">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <button
-          onClick={() => setIsOpen(true)}
-          className="m-4 px-4 py-2 bg-blue-600 text-white rounded"
-        >
-          Open Menu
-        </button>
-      </div> */}
       <div className="w-full">
         <div className="max-w-[1170px] w-full mx-auto px-[15px]">
-          <h3 className="text-[24px] text-[#0f0f0f] tracking-[.05rem] mt-[38px] mb-[42px] font-medium text-center uppercase">
+          <h3 className="text-[24px] text-[#433b32] tracking-[.05rem] mt-[38px] mb-[42px] font-medium text-center uppercase">
             blog
           </h3>
           <div className="content w-full flex">
@@ -76,20 +28,20 @@ const BlogPage = () => {
     ${isOpen ? "translate-x-0" : "-translate-x-full xl:translate-x-0"}`}
             >
               <div className="mb-[45px]">
-                <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium mb-[13px] uppercase">
+                <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium mb-[13px] uppercase">
                   search
                 </h1>
-                <div className="searchbar px-[15px] py-[10px] w-full bg-[#fafafa] text-[#3c3c3c] text-[12px] flex">
+                <div className="searchbar px-[15px] py-[10px] w-full bg-[#fafafa] border border-[#f8941e] text-[#3c3c3c] text-[12px] flex">
                   <input
                     type="text"
                     placeholder="Search..."
                     className=" w-full"
                   />
-                  <IoSearchOutline size={"24px"} className="text-[#000000]" />
+                  <IoSearchOutline size={"24px"} className="text-[#f8941e]" />
                 </div>
               </div>
               <div className="mb-[45px]">
-                <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] uppercase">
+                <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] uppercase">
                   categories
                 </h1>
                 <ul className="list-none">
@@ -144,14 +96,14 @@ const BlogPage = () => {
                 </ul>
               </div>
               <div className="mb-[45px]">
-                <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] uppercase">
+                <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] uppercase">
                   recent articles
                 </h1>
                 <ul className="list-none">
                   <li className="mb-[15px]">
                     <Link
                       href={"#"}
-                      className="block text-[#0f0f0f] tracking-[.02em] leading-[24px] font-medium text-[12px]"
+                      className="block text-[#433b32] tracking-[.02em] leading-[24px] font-medium text-[12px]"
                     >
                       Commodo Muso Magna Cosmopolis
                     </Link>
@@ -163,7 +115,7 @@ const BlogPage = () => {
                   <li className="my-[15px]">
                     <Link
                       href={"#"}
-                      className="block text-[#0f0f0f] tracking-[.02em] leading-[24px] font-medium text-[12px]"
+                      className="block text-[#433b32] tracking-[.02em] leading-[24px] font-medium text-[12px]"
                     >
                       Commodo Muso Magna Cosmopolis
                     </Link>
@@ -175,7 +127,7 @@ const BlogPage = () => {
                   <li className="my-[15px]">
                     <Link
                       href={"#"}
-                      className="block text-[#0f0f0f] tracking-[.02em] leading-[24px] font-medium text-[12px]"
+                      className="block text-[#433b32] tracking-[.02em] leading-[24px] font-medium text-[12px]"
                     >
                       Commodo Muso Magna Cosmopolis
                     </Link>
@@ -186,7 +138,7 @@ const BlogPage = () => {
                 </ul>
               </div>
               <div className="mb-[95px]">
-                <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] uppercase">
+                <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] uppercase">
                   featured products
                 </h1>
                 <BlogSlider />
@@ -194,7 +146,7 @@ const BlogPage = () => {
               <div className="mb-[45px]">
                 <Link href={"#"} className="block">
                   <Image
-                    src="/images/blog featured/1.jpg"
+                    src="/images/blog featured/9.jpg"
                     alt="blog img"
                     height={700}
                     width={650}
@@ -203,7 +155,7 @@ const BlogPage = () => {
                 </Link>
                 <Link href={"#"} className="block">
                   <Image
-                    src="/images/blog featured/2.jpg"
+                    src="/images/blog featured/10.jpg"
                     alt="blog img"
                     height={700}
                     width={650}
@@ -212,7 +164,7 @@ const BlogPage = () => {
                 </Link>
               </div>
               <div className="">
-                <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] uppercase">
+                <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] uppercase">
                   custom cms blocks
                 </h1>
                 <div className="content mt-[18px]">
@@ -249,7 +201,7 @@ const BlogPage = () => {
                 </div>
                 <ul className="list-none">
                   <li>
-                    <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] capitalize">
+                    <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] capitalize">
                       <Link href="#" className="">
                         Commodo Muso Magna Cosmopolis
                       </Link>
@@ -262,7 +214,7 @@ const BlogPage = () => {
                     </p>
                     <Link href={"#"}>
                       <Image
-                        src="/images/blog featured/3.jpg"
+                        src="/images/blog featured/6.jpg"
                         height={587}
                         width={992}
                         alt="blog img"
@@ -279,7 +231,7 @@ const BlogPage = () => {
                       sagittis est id consequat ipsum ligula a...
                     </p>
                     <div className="w-full pb-[35px] border-b border-[#f8f8f8] mb-[45px]">
-                      <div className="text-[14px] font-[400] mb-[15px] bg-transparent hover:bg-[#0f0f0f] border border-[#0f0f0f] hover:text-[#ffffff] text-[#0f0f0f] max-w-[163px] py-[8px] md:p-[15px] text-center">
+                      <div className="text-[14px] font-[400] mb-[15px] bg-transparent hover:bg-[#f8941e] border border-[#f8941e] hover:text-[#fff] text-[#f8941e] max-w-[163px] py-[8px] md:p-[15px] text-center">
                         <Link href="#" className="uppercase font-medium">
                           read more
                         </Link>
@@ -287,7 +239,7 @@ const BlogPage = () => {
                     </div>
                   </li>
                   <li>
-                    <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] capitalize">
+                    <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] capitalize">
                       <Link href="#" className="whitespace-nowrap">
                         Loremous Comodous: Trending
                       </Link>
@@ -300,7 +252,7 @@ const BlogPage = () => {
                     </p>
                     <Link href={"#"}>
                       <Image
-                        src="/images/blog featured/5.jpg"
+                        src="/images/blog featured/7.jpeg"
                         height={587}
                         width={992}
                         alt="blog img"
@@ -317,7 +269,7 @@ const BlogPage = () => {
                       sagittis est id consequat ipsum ligula a...
                     </p>
                     <div className="w-full pb-[35px] border-b border-[#f8f8f8] mb-[45px]">
-                      <div className="text-[14px] font-[400] mb-[15px] bg-transparent hover:bg-[#0f0f0f] border border-[#0f0f0f] hover:text-[#ffffff] text-[#0f0f0f] max-w-[163px]  py-[8px] md:p-[15px] text-center">
+                      <div className="text-[14px] font-[400] mb-[15px] bg-transparent hover:bg-[#f8941e] border border-[#f8941e] hover:text-[#fff] text-[#f8941e] max-w-[163px] py-[8px] md:p-[15px] text-center">
                         <Link href="#" className="uppercase font-medium">
                           read more
                         </Link>
@@ -325,7 +277,7 @@ const BlogPage = () => {
                     </div>
                   </li>
                   <li>
-                    <h1 className="tracking-[.02em] text-[18px] text-[#0f0f0f] font-medium leading-[36px] capitalize">
+                    <h1 className="tracking-[.02em] text-[18px] text-[#433b32] font-medium leading-[36px] capitalize">
                       <Link href="#">
                         Deumanto Sollicitudin Delo Milancelos
                       </Link>
@@ -338,7 +290,7 @@ const BlogPage = () => {
                     </p>
                     <Link href={"#"}>
                       <Image
-                        src="/images/blog featured/4.jpg"
+                        src="/images/blog featured/8.jpeg"
                         height={587}
                         width={992}
                         alt="blog img"
@@ -355,7 +307,7 @@ const BlogPage = () => {
                       sagittis est id consequat ipsum ligula a...
                     </p>
                     <div className="w-full pb-[35px] border-b border-[#f8f8f8] mb-[45px]">
-                      <div className="text-[14px] font-[400] mb-[15px] bg-transparent hover:bg-[#0f0f0f] border border-[#0f0f0f] hover:text-[#ffffff] text-[#0f0f0f] max-w-[163px] py-[8px] md:p-[15px] text-center">
+                      <div className="text-[14px] font-[400] mb-[15px] bg-transparent hover:bg-[#f8941e] border border-[#f8941e] hover:text-[#fff] text-[#f8941e] max-w-[163px] py-[8px] md:p-[15px] text-center">
                         <Link href="#" className="uppercase font-medium">
                           read more
                         </Link>
@@ -371,8 +323,8 @@ const BlogPage = () => {
           <Link href="#" className="text-center text-[#5a5a5a] text-[12px]">
             Home
           </Link>
-          <FaAngleRight className="text-[#5a5a5a] text-[12px]" />
-          <Link href="#" className="text-center text-[#5a5a5a] text-[12px]">
+          <FaAngleRight className="text-[#f8941e] text-[12px]" />
+          <Link href="#" className="text-center text-[#f8941e] text-[12px]">
             Blog
           </Link>
         </div>

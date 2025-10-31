@@ -24,7 +24,7 @@ const MainNavContent = () => {
         </div>
         <div className="w-full h-full overflow-auto bg-white px-[8px]">
           <ul className="mb-[20px]">
-            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-gray-300">
+            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-[#ffe9d0]">
               <Link
                 href="/men"
                 className="px-[20px] pt-[13px] pb-[11px] font-medium uppercase leading-[22px] tracking-[.02em] text-[#0f0f0f]"
@@ -34,7 +34,7 @@ const MainNavContent = () => {
               </Link>
               <FaChevronRight />
             </li>
-            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-gray-300">
+            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-[#ffe9d0]">
               <Link
                 onClick={() => setNavLeft(!navLeft)}
                 href="/men"
@@ -44,7 +44,7 @@ const MainNavContent = () => {
               </Link>
               <FaChevronRight />
             </li>
-            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-gray-300">
+            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-[#ffe9d0]">
               <Link
                 onClick={() => setNavLeft(!navLeft)}
                 href="/men"
@@ -54,7 +54,7 @@ const MainNavContent = () => {
               </Link>
               <FaChevronRight />
             </li>
-            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-gray-300">
+            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-[#ffe9d0]">
               <Link
                 onClick={() => setNavLeft(!navLeft)}
                 href="/men"
@@ -64,7 +64,7 @@ const MainNavContent = () => {
               </Link>
               <FaChevronRight />
             </li>
-            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-gray-300">
+            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-[#ffe9d0]">
               <Link
                 onClick={() => setNavLeft(!navLeft)}
                 href="/men"
@@ -74,7 +74,7 @@ const MainNavContent = () => {
               </Link>
               <FaChevronRight />
             </li>
-            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-gray-300">
+            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-[#ffe9d0]">
               <Link
                 onClick={() => setNavLeft(!navLeft)}
                 href="/blog"
@@ -84,7 +84,7 @@ const MainNavContent = () => {
               </Link>
               <FaChevronRight />
             </li>
-            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-gray-300">
+            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-[#ffe9d0]">
               <Link
                 onClick={() => setNavLeft(!navLeft)}
                 href="#"
@@ -94,7 +94,7 @@ const MainNavContent = () => {
               </Link>
               <FaChevronRight />
             </li>
-            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-gray-300">
+            <li className="text-[12px] text-[#c5c2c2] w-full flex justify-between items-center border-b border-[#ffe9d0]">
               <Link
                 onClick={() => setNavLeft(!navLeft)}
                 href="#"
@@ -106,7 +106,7 @@ const MainNavContent = () => {
             </li>
           </ul>
           <div>
-            <ul className="text-[#34313a] text-[12px] pb-[20px] border-b border-gray-300">
+            <ul className="text-[#34313a] text-[12px] pb-[20px] border-b border-[#ffe9d0]">
               <li className="px-[20px] py-[7px]">
                 <Link href="#" className="leading-[22px]">
                   Login
@@ -138,7 +138,7 @@ const MainNavContent = () => {
                 Language{" "}
               </h6>
             </div>
-            <ul className="text-[#34313a] text-[12px] mt-[25px] pb-[20px] border-b border-gray-300">
+            <ul className="text-[#34313a] text-[12px] mt-[25px] pb-[20px] border-b border-[#ffe9d0]">
               <li className="px-[20px] py-[7px]">
                 <Link
                   onClick={() => setNavLeft(!navLeft)}

@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
               <ul className="text-[#5f5f5f] text-[12px] font-[400]">
                 <li className="mt-[12px] mb-[17px]">
-                  <b className="text-[14px] font-medium text-[#232323] uppercase">
+                  <b className="text-[14px] font-medium text-[#f8941e] uppercase">
                     shop
                   </b>
                 </li>
@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
               <ul className="text-[#5f5f5f] text-[12px] font-[400]">
                 <li className="mt-[12px] mb-[17px]">
-                  <b className="font-medium text-[#232323] uppercase">
+                  <b className="text-[14px] font-medium text-[#f8941e] uppercase">
                     information
                   </b>
                 </li>
@@ -73,7 +73,7 @@ const Footer = () => {
             <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
               <ul className="text-[#5f5f5f] text-[12px] font-[400]">
                 <li className="mt-[12px] mb-[17px]">
-                  <b className="text-[14px] font-medium text-[#232323] uppercase">
+                  <b className="text-[14px] font-medium text-[#f8941e] uppercase">
                     customer service
                   </b>
                 </li>
@@ -101,7 +101,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 text-[#5f5f5f] text-[12px] font-[400]">
-              <h3 className="mt-[12px] mb-[17px] text-[14px] font-medium text-[#232323] uppercase">
+              <h3 className="mt-[12px] mb-[17px] text-[14px] font-medium text-[#f8941e] uppercase">
                 store info.
               </h3>
               <div className="mb-[35px]">
@@ -232,7 +232,7 @@ const Footer = () => {
               </Link>
             </div>
             <div className="col-span-12 md:col-span-4">
-              <p className="text-[#5f5f5f] text-[12px] text-center md:text-right leading-[30px]">
+              <p className="text-[#f8941e] text-[12px] text-center md:text-right leading-[30px]">
                 <span>
                   © 2019 LUXWatches Demo. All rights reserved. Powered by
                   Shopify.

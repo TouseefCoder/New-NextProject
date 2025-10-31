@@ -6,7 +6,7 @@ const CustomBlocks = () => {
   return (
     <div className="max-w-[1600px] w-full mx-auto px-[15px]">
       <div className="title pt-[67px] mb-[40px]">
-        <h3 className="text-[24px] text-[#0f0f0f] tracking-[.05rem] mb-[20px] font-medium text-center uppercase">
+        <h3 className="text-[24px] text-[#433b32] tracking-[.05rem] mb-[20px] font-medium text-center uppercase">
           #custom blocks
         </h3>
         <p className="p-0 sm:px-[90px] md:px-[200px] lg:px-[160px] xl:px-[460px] text-center text-[#5a5a5a] text-[14px]">
@@ -19,7 +19,7 @@ const CustomBlocks = () => {
       <div className="flex justify-between flex-col sm:flex-row items-center">
         <div className="w-[100%] mb-[20px] overflow-hidden relative">
           <Image
-            src="/images/custom block/1.jpg"
+            src="/images/custom block/3.png"
             alt="women"
             height={669}
             width={644}
@@ -37,7 +37,7 @@ const CustomBlocks = () => {
               condimentum de cosmo lacus meleifend blanditios.
             </p>
             <div className="w-full flex justify-center">
-              <button className="w-[240px] text-center h-[40px] text-[14px] cursor-pointer hover:bg-[#000000] bg-[#000000] sm:bg-transparent text-white font-[500] border border-white uppercase">
+              <button className="w-[240px] text-center h-[40px] mb-[25px] text-[14px] cursor-pointer hover:bg-[#cf7711] bg-[#f8941e] text-white font-[500] uppercase">
                 shop this collection
               </button>
             </div>
